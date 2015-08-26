@@ -30,13 +30,22 @@ awesome-rack
 ## Tutorials
 
 * [Introducing Rack](http://chneukirchen.org/talks/euruko-2007/neukirchen07introducingrack.pdf) by Christian Neukirchen - 
-  An overview of Rack interface and the Rack gem. 
+  An overview of Rack interface and the Rack gem.
+* [A Quick Note on Rack](http://www.ralphonrails.com/rack/2015/07/05/a-quick-note-on-rack.html)   
 * [Concisely about Rack applications](http://zaiste.net/2012/08/concisely_about_rack_applications/)
+* [Exploring Rack](http://code.tutsplus.com/tutorials/exploring-rack--net-32976)
 * [Rack basics](http://albertogrespan.com/blog/rack-basics/) - Covers basic usage of Response, ERB template and the `rackup` tool.
 * [Rack middleware](http://albertogrespan.com/blog/rack-middleware/) - Create two simple middlewares and glue it all together using `Rack::Builder`
+* [What is Rack, please?](http://southdesign.de/blog/rack.html)
+* [A simple Ruby Rack router](https://erikeldridge.wordpress.com/2010/02/21/simple-ruby-rack-router/) - a simple router in 17 lines of code
+* [Understanding Rack Builder](http://ixti.net/development/ruby/2011/09/03/understanding-rack-builder.html)
+* [Getting Started with Rack](https://gist.github.com/markbates/4240848) - use Rack::Builder to create a simple framework that
+  handles HTTP GET requests.
+* [Understanding Rack Apps and Middleware](https://blog.engineyard.com/2015/understanding-rack-apps-and-middleware)    
 * [Rails on Rack](http://guides.rubyonrails.org/rails_on_rack.html) - Covers Rails integration with Rack and interfacing with other Rack 
   components. This guide tells you how to use Rack Middlewares in your Rails applications, Action Pack's internal Middleware stack and
   how to define a custom Middleware stack.
+* [Rack Developer's Notebook by Bala Paranj](http://files.meetup.com/437842/RackDevelopersNotebook.pdf)    
 * [EBook: Build Your Own Sinatra by K-2052 (2015)](http://buildyourownsinatra.com/)   
 * [Book: Rebuilding Rails by Noah Gibbs (2013)](https://rebuilding-rails.com/)
 
@@ -44,15 +53,19 @@ awesome-rack
 
 * [Rack and Middleware by Tim Uruski 2015/Feb](https://speakerdeck.com/timuruski/rack-and-middleware)
 * [8 Minutes on Rack](http://www.slideshare.net/danwrong/8-minutes-on-rack-presentation) - The basic introduction to the Rack application definition.
-* [Building Web Apps with Rack and Sinatra by Tom Black](https://speakerdeck.com/blacktm/building-web-apps-with-rack-and-sinatra)
 * [Using and scaling Rack and Rack-based middleware by alony](https://speakerdeck.com/alony/rack)
+* [Rack talk by Caleb Woods](http://www.calebwoods.com/rack-talk/) - A overview of essential Rack built-in middlewares and rack in Rails. 
+* [Building Web Apps with Rack and Sinatra by Tom Black](https://speakerdeck.com/blacktm/building-web-apps-with-rack-and-sinatra)
+* [Sinatra and friends by Jiang Wu](http://www.slideshare.net/jiang.wu/sinatra-and-friends)
 * [Ruby on Rack Small Talk by Meagan Waller](https://speakerdeck.com/meaganewaller/ruby-on-rack-small-talk) - builds an example that
   implements tiny MVC and a simple router. The example is available on [GitHub](https://github.com/meaganewaller/ruby-on-rack-example) 
 * [Rack: A Framework to roll your own by Nishant Modak](https://speakerdeck.com/nishantmodak/rack-a-framework-to-roll-your-own)
 * [Ruby MVC from scratch with Rack](https://speakerdeck.com/donschado/ruby-mvc-from-scratch-with-rack) - WOW!
-* [Middleware: A General Purpose Abstraction by Mitchell Hashimoto](https://speakerdeck.com/mitchellh/middleware-a-general-purpose-abstraction) - 
+* [Constructing Web APIs with Rack, Sinatra and MongoDB by Oisin Hurley](http://www.slideshare.net/oisin/constructing-web-apis-with-rack-sinatra-and-mongodb)
+* [Middleware: A General Purpose Abstraction by Mitchell Hashimoto](https://speakerdeck.com/mitchellh/middleware-a-general-purpose-abstraction) 
 * [High Performance Rails (long edition) by Issei Naruta](https://speakerdeck.com/mirakui/high-performance-rails-long-edition) - Rails 
   Performance tuning and how to do profiling and caching.
+* [Rack - rolling your own, tiny like, web thingoes by Ryan Allen](http://yeahnah.org/files/rack-presentation-oct-07.pdf) - talks about concurrency. 
 
 ## Videos
 
@@ -91,8 +104,10 @@ awesome-rack
 * [Code School - Scaling Rails Applications: Rack & Metal (Episod #13)](https://www.youtube.com/watch?v=P0aOYjoH594)
 * [Rack Middleware as a General Purpose Abstraction by Mitchell Hashimoto](https://www.youtube.com/watch?v=i6pyhq3ZvyI)
   * the slide is available on [speakdeck](https://speakerdeck.com/mitchellh/middleware-a-general-purpose-abstraction).
-  * [Generalized middleware implementation for Ruby by Mitchell Hashimoto](https://github.com/mitchellh/middleware)
-* [Faking Sinatra with Rack and Middleware by Charles Wood](https://www.youtube.com/watch?v=uH4H5GQOSqQ)  
+  * [Generalized middleware implementation for Ruby by Mitchell Hashimoto](https://github.com/mitchellh/middleware) - ~ 130 LOC
+* [Faking Sinatra with Rack and Middleware by Charles Wood](https://www.youtube.com/watch?v=uH4H5GQOSqQ)
+* [Rails Conf 2013 You've got a Sinatra on your Rails by José Valim](https://www.youtube.com/watch?v=TslkdT3PfKc) - Great look 
+  at how Rails uses Rack internally  
 
 ## Web Servers
 
@@ -119,7 +134,8 @@ awesome-rack
   and lightweight. Supports Ruby, Python, Node.js and Meteor, and is being used by high-profile companies such as Apple, 
   Pixar, New York Times, AirBnB, Juniper etc as well as over 350.000 websites.
 * [Puma](https://github.com/puma/puma) - A simple, fast, threaded, and highly concurrent HTTP 1.1 server writtern in Ruby.
-* [Reel](https://github.com/celluloid/reel) - A fast, non-blocking "evented" web server written in Ruby.
+* [Reel](https://github.com/celluloid/reel) - A fast, non-blocking "evented" web server written in Ruby. You'll need 
+  [reel-rack](https://github.com/celluloid/reel-rack), a Rack adapter for Reel.
 * [Unicorn](http://bogomips.org/unicorn.git) - Rack HTTP server for fast clients and Unix
 * [unixrack](https://github.com/brightroll/unixrack) - A ruby RACK webserver only for unix using the old unix style. (~500 LOC)
 * [uWSGI](https://github.com/unbit/uwsgi) - uWSGI application server container written in Python. Supports Python (WSGI), 
@@ -132,8 +148,10 @@ awesome-rack
 * [Mongrel2](https://github.com/mongrel2/mongrel2) - An application, language, and network architecture agnostic web server 
   that focuses on web applications using modern browser technologies. Written in C.  
 * [Pow](https://github.com/basecamp/pow) - zero-config Rack server for Mac OS X. Have it serving your apps locally in under 
-  a minute. A Linux fork is availble [here](https://github.com/ysbaddaden/pow).  
-
+  a minute. A Linux fork is availble [here](https://github.com/ysbaddaden/pow).
+* [nack](https://github.com/josh/nack) - nack is a Rack server built on top of the Node.js HTTP server  
+* [Gorack](https://github.com/gmarik/gorack) - a Go backed frontend webserver for Ruby's Rack applications, inspired by Node's 
+  [nack](http://github.com/josh/nack)      
 
 ## Frameworks
 
@@ -201,29 +219,29 @@ awesome-rack
 * [Sin](https://github.com/raggi/sin) - A multi-app web-app DSL derived from Sinatra, riding on rack.
 * [Gin](https://github.com/jcasts/gin) - A small Ruby web framework, built on Rack, which borrows from Sinatra expressiveness, 
   and targets larger applications
-* [padrino](https://github.com/padrino/padrino-framework) - Padrino is a full-stack ruby framework built upon Sinatra
-
-  * [padrino-contrib](https://github.com/padrino/padrino-contrib) - Contributed plugins and utilities for Padrino Framework
-  * [padrino-recipes](https://github.com/padrino/padrino-recipes) - A collection of padrino templates and plugins
-
 * [Pakyow](https://github.com/pakyow/pakyow/) - An open-source framework for the modern web. Build web-based apps faster with 
   a view-first development process that's friendly to everyone
 * [Scorched](https://github.com/Wardrop/Scorched) - Light-weight, DRY as a desert, web framework for Ruby. Simliar to Sinatra. 
   Scorched is a true evolutionary enhancement of Sinatra, with more power, focus, and less clutter.
 * [Sinatra](https://github.com/sinatra/sinatra) - Classy web-development dressed in a DSL for quickly creating web applications
-  in Ruby with minimal effort.
+  in Ruby with minimal effort. Sinatra is not a framework, nor a MVC, it's a wrapper around Rack.
   
   * [sinatra-contrib](https://github.com/sinatra/sinatra-contrib) - Collection of common Sinatra extensions.
   * [sinatra-receipes](https://github.com/sinatra/sinatra-recipes) - Community contributed recipes and techniques for the Sinatra Web Framework
   * [sinatra-book](https://github.com/sinatra/sinatra-book) - A cookbook full of excellent tutorials and recipes for developing Sinatra web applications.
+
+* [padrino](https://github.com/padrino/padrino-framework) - Padrino is a full-stack ruby framework built upon Sinatra
+
+  * [padrino-contrib](https://github.com/padrino/padrino-contrib) - Contributed plugins and utilities for Padrino Framework
+  * [padrino-recipes](https://github.com/padrino/padrino-recipes) - A collection of padrino templates and plugins
+
+* [Rails](https://github.com/rails/rails) - Ruby on Rails, is a MVC web application framework written in Ruby.
 
 * [Volt](https://github.com/voltrb/volt) - A reactive web framework where your Ruby runs on both server and client (via [Opal](https://github.com/opal/opal)).
   A framework for building data rich web applications shockingly fast. Instead of syncing data between the client and server via 
   HTTP, Volt uses a persistent connection between the client and server. When data is updated on one client, it is updated in the 
   database and any other listening clients (with almost no setup code needed). Volt apps share MVC and routes between client and
   server. Same Ruby code runs on the client and server!!! Volt plans to integrate RethinkDB and RubyMotion.   
-* [Rails](https://github.com/rails/rails) - Ruby on Rails, is a MVC web application framework written in Ruby.
-  
 
 ## Middlewares
 
@@ -376,7 +394,7 @@ awesome-rack
   be redirected to "http://example.org".
 * [rack-routing](https://github.com/iAmPlus/rack-routing) - Map URL routes to Ruby methods
 * [angus-router](https://github.com/moove-it/angus-router) - A router for Rack applications.
-* [rack-router](https://github.com/pjb3/rack-router) - A simple router for rack apps. Requires Ruby 1.9+.
+* [rack-router](https://github.com/pjb3/rack-router) - A simple router for rack apps. Requires Ruby 1.9+. (~ 200 LOC)
 * [SimpleRouter](http://github.com/mynyml/simple_router) - Small and simple standalone router, meant for use with Rack applications.
   Familiar Sinatra-like DSL for defining actions. Modular architecture.
 * [http_router](https://github.com/joshbuddy/http_router) - This is an HTTP router for use in either a web framework, 
@@ -384,7 +402,8 @@ awesome-rack
 * [sinatra-router](https://github.com/brandur/sinatra-router) - A tiny vendorable router that makes it easy to try 
   routes from a number of different modular Sinatra applications  
 * [sinatra-advanced-routes](https://github.com/rkh/sinatra-advanced-routes) - Make Sinatra routes first class objects 
-  (extracted from BigBand).  
+  (extracted from BigBand). 
+* [Rack::Mount](https://github.com/jm/rack-mount) - A stackable dynamic tree based Rack router.   
 * [Lotus::Router](https://github.com/lotus/router) - Rack compatible, lightweight and fast HTTP Router for Ruby and `Lotus`.
 * [Pendragon](https://github.com/namusyaka/pendragon) - Provides an HTTP router for use in Rack and Padrino
 * [Journey](https://github.com/rails/journey) - A router for rails. Journey is a router. It routes requests.
@@ -424,6 +443,8 @@ awesome-rack
   Rack-based applications that produce freshness (Expires, Cache-Control) and/or validation (Last-Modified, ETag) information
 * [Garner](https://github.com/artsy/garner) - A set of Rack middleware and cache helpers that implement various caching strategies.  
 * [rack-cache-smash](https://github.com/eliotsykes/rack-cache-smash) - Rack middleware to cache bust *every* CSS and JS asset request
+* [Rack::Cachely](https://github.com/markbates/rack-cachely) - Rack Middleware for working with the CachelyApp Page Cache Service, 
+  [Cachely](http://www.cachelyapp.com/)
     
 > Middlewares for Authentication
 
@@ -493,11 +514,13 @@ awesome-rack
   stores debugging info over many requests, incuding AJAX requests. Forked from `rack-bug`
 * [rack-mini-profiler](https://github.com/MiniProfiler/rack-mini-profiler) - Middleware that displays speed badge for every html page.
   A simple but effective mini-profiler for .NET, Ruby, Go and Node.js. Introduced in [`Railscasts #368 MiniProfiler`](http://railscasts.com/episodes/368-miniprofiler)
-* [racksh](https://github.com/sickill/racksh) - Console for Rack based ruby web apps. It's like script/console in Rails 
+* [racksh](https://github.com/sickill/racksh) - Console for Rack based ruby web apps. It's like script/console in Rails (~ 100 LOC) 
   or merb -i in Merb, but for any app built on Rack.
 * [rack-monitor](https://github.com/pka/rack-monitor) - Rack middleware for collecting run-time information for monitoring tools like Munin
 * [Rack::PerftoolsProfiler](https://github.com/bhb/rack-perftools_profiler) - Middleware for profiling Rack-compatible apps using 
   [perftools.rb](http://github.com/tmm1/perftools.rb)
+* [Bugsnag](https://github.com/bugsnag/bugsnag-ruby) - The Bugsnag Notifier for Ruby gives you instant notification of exceptions 
+  thrown from your Rails, Sinatra, Rack or plain Ruby app 
   
 > Middlewares for Protection
 
@@ -543,6 +566,10 @@ awesome-rack
 * [Rack::Tunnel](https://github.com/benburkert/rack-tunnel) - Automatic port forwading via SSH tunneling
 * [Rack::Mux](https://github.com/benburkert/rack-mux) - Multiplex multiple rack servers to the same app.
 * [Rack::UserAgent::Filter](https://github.com/bebanjo/rack-useragent) - Rack Middleware for filtering by user agent
+* [Rack::RevisionInfo](https://github.com/sickill/rack-revision-info) - Rack middleware showing current git (or svn) revision number of 
+  deployed application
+* [Rack::Health](https://github.com/mirakui/rack-health) - A health check interface for rack applications.
+* [Rack::Store](https://github.com/mirakui/rack-store) - A Rack middleware what makes the env accessible anywhere while a request   
   
 ## Helpers and Tools
 
@@ -569,16 +596,16 @@ awesome-rack
     
     * [Rackup howto](https://github.com/rack/rack/wiki/%28tutorial%29-rackup-howto)
     
-* [rack-test](https://github.com/brynary/rack-test) - A layer on top of Rack's `MockRequest` similar to Merb's `RequestHelper`. (~200 LOC)
+* [rack-test](https://github.com/brynary/rack-test) - A layer on top of Rack's `MockRequest` similar to Merb's `RequestHelper`. 
 * [Lookout::Rack::Test](https://github.com/lookout/lookout-rack-test) - RSpec and Cucumber test helpers.
 * [test-unit-capybara](https://github.com/test-unit/test-unit-capybara/) -  integration testing helper library for Rack applications, a Capybara 
   adapter for adapter for [test-unit](https://github.com/test-unit/test-unit) 
   
 ## Miscellaneous
   
-* [Rack Middleware as a General Purpose Abstraction by Mitchell Hashimoto](https://www.youtube.com/watch?v=i6pyhq3ZvyI)
+* [Videos: Rack Middleware as a General Purpose Abstraction by Mitchell Hashimoto](https://www.youtube.com/watch?v=i6pyhq3ZvyI)
   * the slide is available on [speakdeck](https://speakerdeck.com/mitchellh/middleware-a-general-purpose-abstraction).
-  * [Videos: Generalized middleware implementation for Ruby by Mitchell Hashimoto](https://github.com/mitchellh/middleware)
+  * [Generalized middleware implementation for Ruby by Mitchell Hashimoto](https://github.com/mitchellh/middleware) - ~ 130 LOC
 
 * [Vagrant Middlewares](https://github.com/mitchellh/vagrant/blob/master/lib%2Fvagrant%2Faction.rb) - Vagrant calls middlewares 
   "actions" and a stack of middlewares an "action sequence." (But you may also just call them middleware and middleware stacks, 
@@ -653,6 +680,8 @@ awesome-rack
    
 * [Clack (Lisp)](https://github.com/fukamachi/clack/) - Clack is a web application environment for Common Lisp inspired by 
   Python's WSGI and Ruby's Rack.   
+  
+* [Hack (Haskell)](https://github.com/nfjinjing/hack2) - Hack2 is a port of Ruby's Rack webserver interface.
   
 * [JSGI (JavaScript)](http://wiki.commonjs.org/wiki/JSGI) - JavaScript Gateway Interface, is an interface between web servers 
   and JavaScript-based web applications and frameworks. It was inspired by the Rack for Ruby and WSGI for Python and was one 
