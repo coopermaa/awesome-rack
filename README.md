@@ -45,18 +45,23 @@ awesome-rack
 * [Rails on Rack](http://guides.rubyonrails.org/rails_on_rack.html) - Covers Rails integration with Rack and interfacing with other Rack 
   components. This guide tells you how to use Rack Middlewares in your Rails applications, Action Pack's internal Middleware stack and
   how to define a custom Middleware stack.
+* [IT'S ONLY RACK ON RAILS BUT I LIKE IT](http://pathfindersoftware.com/2009/02/its-only-rack-on-rails-but-i-like-it/)
+* [Jesse Newland / Rails Metal: a micro-framework with the power of Rails](http://jnewland.github.io/articles/2008/12/16/rails-metal-a-micro-framework-with-the-power-of-rails-m/)
 * [Rack Developer's Notebook by Bala Paranj](http://files.meetup.com/437842/RackDevelopersNotebook.pdf)    
 * [EBook: Build Your Own Sinatra by K-2052 (2015)](http://buildyourownsinatra.com/)   
 * [Book: Rebuilding Rails by Noah Gibbs (2013)](https://rebuilding-rails.com/)
 
 ## Presentations
 
+* [Introducing Rack by Christian Neukirchen at EuRuKo 2007](http://chneukirchen.org/talks/euruko-2007/chneukirchen-euruko2007-introducing-rack.pdf) - An 
+  overview of Rack interface and the Rack gem.
 * [Rack and Middleware by Tim Uruski 2015/Feb](https://speakerdeck.com/timuruski/rack-and-middleware)
 * [8 Minutes on Rack](http://www.slideshare.net/danwrong/8-minutes-on-rack-presentation) - The basic introduction to the Rack application definition.
 * [Using and scaling Rack and Rack-based middleware by alony](https://speakerdeck.com/alony/rack)
 * [Rack talk by Caleb Woods](http://www.calebwoods.com/rack-talk/) - A overview of essential Rack built-in middlewares and rack in Rails. 
 * [Building Web Apps with Rack and Sinatra by Tom Black](https://speakerdeck.com/blacktm/building-web-apps-with-rack-and-sinatra)
 * [Sinatra and friends by Jiang Wu](http://www.slideshare.net/jiang.wu/sinatra-and-friends)
+* [Building Web Services (HTTP APIs) with Ruby and Sinatra](http://slideshow-s9.github.io/demos/sinatra_http_api2.html)
 * [Ruby on Rack Small Talk by Meagan Waller](https://speakerdeck.com/meaganewaller/ruby-on-rack-small-talk) - builds an example that
   implements tiny MVC and a simple router. The example is available on [GitHub](https://github.com/meaganewaller/ruby-on-rack-example) 
 * [Rack: A Framework to roll your own by Nishant Modak](https://speakerdeck.com/nishantmodak/rack-a-framework-to-roll-your-own)
@@ -72,6 +77,7 @@ awesome-rack
 > Videos from Railscasts
 
 * [Railscasts Pro #53 Handling Exceptions (revised)](http://railscasts.com/episodes/53-handling-exceptions-revised)
+* [Railscasts --- #150 Rails Metal](http://railscasts.com/episodes/150-rails-metal)
 * [Railscasts Pro #150 Rails Metal (revised)](http://railscasts.com/episodes/150-rails-metal-revised)
 * [Railscasts Pro #151 Rack Middleware](http://railscasts.com/episodes/151-rack-middleware)
 * [Railscasts --- #161 Three Profiling Tools](http://railscasts.com/episodes/161-three-profiling-tools)
@@ -520,7 +526,9 @@ awesome-rack
 * [Rack::PerftoolsProfiler](https://github.com/bhb/rack-perftools_profiler) - Middleware for profiling Rack-compatible apps using 
   [perftools.rb](http://github.com/tmm1/perftools.rb)
 * [Bugsnag](https://github.com/bugsnag/bugsnag-ruby) - The Bugsnag Notifier for Ruby gives you instant notification of exceptions 
-  thrown from your Rails, Sinatra, Rack or plain Ruby app 
+  thrown from your Rails, Sinatra, Rack or plain Ruby app
+* [Better Errors](https://github.com/rstacruz/better_errors) - Better Errors replaces the standard Rails error page with a much better 
+  and more useful error page. It is also usable outside of Rails in any Rack app as Rack middleware.
   
 > Middlewares for Protection
 
@@ -545,13 +553,10 @@ awesome-rack
 * [rack-emstream](https://github.com/johnbintz/rack-emstream) - Simple middleware for streaming with EventMachine-capable servers
 * [machined](https://github.com/petebrowne/machined) - A static site generator and Rack server built using Sprockets 2.0
 * [rack-jekyll](https://github.com/adaoraul/rack-jekyll) - Transform your [Jekyll](http://github.com/mojombo/jekyll) app into Rack application
+* [Middleware](https://github.com/middleman/middleman) - A static site generator using all the shortcuts and tools in modern web development. You can use Rack middlewares to modify content 
+  on-the-fly and intercept requests before they are processed by the server (Middleman). Middleman itslef has Rack middlewares to minify CSS and JavaScript files. 
 * [Brochure](https://github.com/sstephenson/brochure) - Rack application for serving static sites with ERB templates 
   (or any of the many template languages supported by Tilt) 
-* [Faraday](https://github.com/lostisland/faraday) - Faraday is an HTTP client lib that provides a common interface over many 
-  adapters (such as Net::HTTP) and embraces the concept of Rack middleware when processing the request/response cycle.
-* [rack-client](https://github.com/halorgium/rack-client) - A HTTP client that aims to be a good Rack citizen.  
-* [rack-api](https://github.com/fnando/rack-api) - Create web app APIs that respond to one or more formats using an elegant DSL
-* [weary](https://github.com/mwunsch/weary) - A framework and DSL for building RESTful web service clients. Full Rack integration
 * [rack-ssl](https://github.com/tobmatth/rack-ssl-enforcer) - Rack middleware to force SSL
 * [rack-ssl-enforcer](https://github.com/tobmatth/rack-ssl-enforcer) - A simple Rack middleware to enforce ssl connections 
 * [rack-ssl-rails](https://github.com/jstorimer/rack-ssl-rails) - A simple interface to `Rack::SSL` for Rails. Provides a railtie 
@@ -570,6 +575,12 @@ awesome-rack
   deployed application
 * [Rack::Health](https://github.com/mirakui/rack-health) - A health check interface for rack applications.
 * [Rack::Store](https://github.com/mirakui/rack-store) - A Rack middleware what makes the env accessible anywhere while a request   
+* [Rack::Plastic](https://github.com/techiferous/rack-plastic) - Helps you changing the HTML using Nokogiri
+* [Rack::ToolBar](https://github.com/pboling/rack-toolbar) - Allows you to create simple Rack Middleware that will insert HTML 
+  (or whatever!) into responses at specific points
+* [Rack::Gsub](https://github.com/techiferous/rack-gsub) - A Rack middleware wrapper for gsub   
+* [Rack::Codehighlighter](https://github.com/wbzyl/rack-codehighlighter) - A middleware which allows for easy connecting a code highlighter of somebody's choice to an HTML page 
+  containing pieces of programming code.
   
 ## Helpers and Tools
 
@@ -602,6 +613,16 @@ awesome-rack
   adapter for adapter for [test-unit](https://github.com/test-unit/test-unit) 
   
 ## Miscellaneous
+
+> HTTP Clients
+
+* [Faraday](https://github.com/lostisland/faraday) - Faraday is an HTTP client lib that provides a common interface over many 
+  adapters (such as Net::HTTP) and embraces the concept of Rack middleware when processing the request/response cycle.
+* [rack-client](https://github.com/halorgium/rack-client) - A HTTP client that aims to be a good Rack citizen.  
+* [rack-api](https://github.com/fnando/rack-api) - Create web app APIs that respond to one or more formats using an elegant DSL
+* [weary](https://github.com/mwunsch/weary) - A framework and DSL for building RESTful web service clients. Full Rack integration
+
+> Vagrant Middlewares
   
 * [Videos: Rack Middleware as a General Purpose Abstraction by Mitchell Hashimoto](https://www.youtube.com/watch?v=i6pyhq3ZvyI)
   * the slide is available on [speakdeck](https://speakerdeck.com/mitchellh/middleware-a-general-purpose-abstraction).
