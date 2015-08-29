@@ -47,6 +47,8 @@ awesome-rack
   how to define a custom Middleware stack.
 * [IT'S ONLY RACK ON RAILS BUT I LIKE IT](http://pathfindersoftware.com/2009/02/its-only-rack-on-rails-but-i-like-it/)
 * [Jesse Newland / Rails Metal: a micro-framework with the power of Rails](http://jnewland.github.io/articles/2008/12/16/rails-metal-a-micro-framework-with-the-power-of-rails-m/)
+* [Asynchronous responses in Rack](http://polycrystal.org/posts/2012-04-14-async-rack.html)
+* [Building Streaming REST APIs with Ruby](http://www.intridea.com/blog/2012/5/24/building-streaming-rest-apis-with-ruby)
 * [Rack Developer's Notebook by Bala Paranj](http://files.meetup.com/437842/RackDevelopersNotebook.pdf)    
 * [EBook: Build Your Own Sinatra by K-2052 (2015)](http://buildyourownsinatra.com/)   
 * [Book: Rebuilding Rails by Noah Gibbs (2013)](https://rebuilding-rails.com/)
@@ -67,6 +69,7 @@ awesome-rack
 * [Rack: A Framework to roll your own by Nishant Modak](https://speakerdeck.com/nishantmodak/rack-a-framework-to-roll-your-own)
 * [Ruby MVC from scratch with Rack](https://speakerdeck.com/donschado/ruby-mvc-from-scratch-with-rack) - WOW!
 * [Constructing Web APIs with Rack, Sinatra and MongoDB by Oisin Hurley](http://www.slideshare.net/oisin/constructing-web-apis-with-rack-sinatra-and-mongodb)
+* [Streaming APIs with Ruby by Jerry Cheung](https://speakerdeck.com/jch/streaming-apis-with-ruby)
 * [Middleware: A General Purpose Abstraction by Mitchell Hashimoto](https://speakerdeck.com/mitchellh/middleware-a-general-purpose-abstraction) 
 * [High Performance Rails (long edition) by Issei Naruta](https://speakerdeck.com/mirakui/high-performance-rails-long-edition) - Rails 
   Performance tuning and how to do profiling and caching.
@@ -142,7 +145,9 @@ awesome-rack
 * [Puma](https://github.com/puma/puma) - A simple, fast, threaded, and highly concurrent HTTP 1.1 server writtern in Ruby.
 * [Reel](https://github.com/celluloid/reel) - A fast, non-blocking "evented" web server written in Ruby. You'll need 
   [reel-rack](https://github.com/celluloid/reel-rack), a Rack adapter for Reel.
-* [Unicorn](http://bogomips.org/unicorn.git) - Rack HTTP server for fast clients and Unix
+* [Unicorn](http://bogomips.org/unicorn.git) - Rack HTTP server for fast clients and Unix. Mostly wriiten in pure Ruby. Provides `unicorn` - 
+  a rackup-like command to launch the Unicorn HTTP server (it uses Rack::Builder DSL) and `unicorn_rails` - a script/server-like command 
+  to launch the Unicorn HTTP server
 * [unixrack](https://github.com/brightroll/unixrack) - A ruby RACK webserver only for unix using the old unix style. (~500 LOC)
 * [uWSGI](https://github.com/unbit/uwsgi) - uWSGI application server container written in Python. Supports Python (WSGI), 
   Ruby (Rack), Perl (PSGI), Lua (WSAPI), PHP (CGI), JVM (JWSGI), Mono (ASP.NET plugin), GO (GCCGO), CGI Scripts.
@@ -158,6 +163,8 @@ awesome-rack
 * [nack](https://github.com/josh/nack) - nack is a Rack server built on top of the Node.js HTTP server  
 * [Gorack](https://github.com/gmarik/gorack) - a Go backed frontend webserver for Ruby's Rack applications, inspired by Node's 
   [nack](http://github.com/josh/nack)      
+* [Mizuno](https://github.com/matadon/mizuno) - Jetty-powered running shoes for JRuby/Rack. A Rack server for JRuby.  It uses the embeddable Jetty 
+  Java servlet container. Mizuno also supports asynchronous request handling, via the Java Servlet 3.0 asynchronous processing mechanism
 
 ## Frameworks
 
@@ -425,7 +432,7 @@ awesome-rack
 
   * `Rack::Session::Abstract` - includes `Rack::Session::Abstract::ID` for implementing an id based sessioning service and
     `Rack::Session::Abstract::SessionHash` for lazily loading the session from store.
-  * `Rack::Session::Cookie` - provides simple cookie based session management. he session is a Ruby Hash stored as base64 
+  * `Rack::Session::Cookie` - provides simple cookie based session management. The session is a Ruby Hash stored as base64 
     encoded marshalled data set to :key (default: rack.session)
   * `Rack::Session::Pool` - provides simple cookie based session management. Session data is stored in a hash held by @pool
   * `Rack::Session::Memcache` - provides simple cookie based session management. Session data is stored in memcached
@@ -440,7 +447,13 @@ awesome-rack
 * [rack-deadline](https://github.com/jeremyevans/rack-deadline) - A simple rack middleware that automatically clears sessions 
   that have been open too long (by default, 1 day)
 * [rack_session_access](https://github.com/railsware/rack_session_access) - provides rack middleware for 'rack.session' 
-  environment management  
+  environment management
+* [Moneta](https://github.com/minad/moneta) - Moneta provides a standard interface for interacting with various kinds of key/value stores.
+   Moneta supports the well-known NoSQL and document based stores.    
+   
+  * `Rack::Session::Moneta` - is a Rack middleware to use Moneta for storing sessions
+  * `Rack::MonetaCookies` - is a Rack middleware which uses Moneta to store cookies  
+  * `ActionDispatch::Session::MonetaStore` - is a Rails middleware to use Moneta for storing sessions 
   
 > Middlewares for Caching
 
@@ -451,6 +464,13 @@ awesome-rack
 * [rack-cache-smash](https://github.com/eliotsykes/rack-cache-smash) - Rack middleware to cache bust *every* CSS and JS asset request
 * [Rack::Cachely](https://github.com/markbates/rack-cachely) - Rack Middleware for working with the CachelyApp Page Cache Service, 
   [Cachely](http://www.cachelyapp.com/)
+* [Moneta](https://github.com/minad/moneta) - Moneta provides a standard interface for interacting with various kinds of key/value stores.
+   Moneta supports the well-known NoSQL and document based stores.    
+   
+  * `Rack::MonetaStore` - is a Rack middleware which places a Moneta store in the environment and enables per-request caching
+  * `Rack::Cache::Moneta` - provides meta and entity stores for Rack-Cache
+  * `ActiveSupport::Cache::MonetaStore` - is a Rails cache implementation which uses a Moneta store as backend
+  * `Ramaze::Cache::Moneta` - is integrated into the Ramaze project and allows Ramaze to use Moneta as caching store
     
 > Middlewares for Authentication
 
@@ -459,11 +479,13 @@ awesome-rack
 * [Devise](https://github.com/plataformatec/devise) - A flexible authentication solution for Rails based on Warden. A complete MVC solution based on Rails engines
 * [OmniAuth](https://github.com/intridea/omniauth) - A flexible authentication system utilizing Rack middleware
 * [rack-oauth2](https://github.com/nov/rack-oauth2) - OAuth 2.0 Server & Client Library. Both Bearer and MAC token type are supported.
+* [Rack::OAuth2::Server](https://github.com/assaf/rack-oauth2-server) - OAuth 2.0 Authorization Server as a Rack module. Supports Sinatra and Rails. 
 * [rack-openid](https://github.com/grosser/rack-openid) - Provides a more HTTPish API around the `ruby-openid` library
 * [rack-jwt-token-auth](https://github.com/botanicus/rack-jwt-token-auth) - JWT-based token authentication middleware for Rack.
 * [Shield](https://github.com/cyx/shield) - Authentication protocol for use in your routing and model context (~ 110 LOC)
 * [Heroku Bouncer](https://github.com/heroku/heroku-bouncer) - Rack middleware (implemented in Sinatra) that requires Heroku 
   OAuth on all requests.  
+* [Rack::FacebookConnect](https://github.com/intridea/rack_facebook_connect) - A Rack middleware for Facebook Connect authentication.  
 
 > Middlwares for Asset Pipeline
 
@@ -547,16 +569,17 @@ awesome-rack
 
 * [rack-pygmentize](https://github.com/leejarvis/rack-pygmentize) - use the generic syntax highlighter Pygments library 
   to make your code look pretty!
-* [rack-flash](https://github.com/nakajima/rack-flash) - Simple flash hash implementation for Rack apps.
+* [rack-flash](https://github.com/treeder/rack-flash) - Simple flash hash implementation for Rack apps.
 * [sinatra-flash](https://github.com/SFEley/sinatra-flash) - An implementation of show-'em-once 'flash' messages for the Sinatra Web 
-  framework. (~ 50 LOC, note this is not a middleware.) 
+  framework. (~ 50 LOC, note this is not a middleware.)   
 * [rack-emstream](https://github.com/johnbintz/rack-emstream) - Simple middleware for streaming with EventMachine-capable servers
 * [machined](https://github.com/petebrowne/machined) - A static site generator and Rack server built using Sprockets 2.0
 * [rack-jekyll](https://github.com/adaoraul/rack-jekyll) - Transform your [Jekyll](http://github.com/mojombo/jekyll) app into Rack application
 * [Middleware](https://github.com/middleman/middleman) - A static site generator using all the shortcuts and tools in modern web development. You can use Rack middlewares to modify content 
   on-the-fly and intercept requests before they are processed by the server (Middleman). Middleman itslef has Rack middlewares to minify CSS and JavaScript files. 
 * [Brochure](https://github.com/sstephenson/brochure) - Rack application for serving static sites with ERB templates 
-  (or any of the many template languages supported by Tilt) 
+  (or any of the many template languages supported by Tilt)
+* [Marley](https://github.com/karmi/marley) - A minimal blog engine without admin interface written in Sinatra framework. Use Rack::Auth::Basic to provide authentication.    
 * [rack-ssl](https://github.com/tobmatth/rack-ssl-enforcer) - Rack middleware to force SSL
 * [rack-ssl-enforcer](https://github.com/tobmatth/rack-ssl-enforcer) - A simple Rack middleware to enforce ssl connections 
 * [rack-ssl-rails](https://github.com/jstorimer/rack-ssl-rails) - A simple interface to `Rack::SSL` for Rails. Provides a railtie 
@@ -581,6 +604,13 @@ awesome-rack
 * [Rack::Gsub](https://github.com/techiferous/rack-gsub) - A Rack middleware wrapper for gsub   
 * [Rack::Codehighlighter](https://github.com/wbzyl/rack-codehighlighter) - A middleware which allows for easy connecting a code highlighter of somebody's choice to an HTML page 
   containing pieces of programming code.
+* [Rack::JQuery](https://github.com/yb66/rack-jquery) - jQuery CDN script tags and fallback in one neat package.
+* [Rack::JQueryUI](https://github.com/yb66/rack-jquery_ui) - jQuery-UI CDN script tags and fallback in one neat package.
+* [Rack::JQueryUI::Themes](https://github.com/yb66/rack-jquery_ui-themes) - jQuery-UI themes CDN script tags and fallback in one neat package.
+* [Rack::Backbone](https://github.com/yb66/rack-backbone) - Backbone.js CDN script tags and fallback in one neat package.
+* [Rack::Polymer](https://github.com/yb66/rack-polymer) - Polymer CDN script tags and fallback in one neat package. Polymer leverages web components, a new set of standards designed 
+  to provide reusable components for the web
+* [Rack::Stream](https://github.com/intridea/rack-stream) - A middleware for building multi-protocol streaming rack endpoints. It's also a simple Stream DSL.
   
 ## Helpers and Tools
 
@@ -610,7 +640,7 @@ awesome-rack
 * [rack-test](https://github.com/brynary/rack-test) - A layer on top of Rack's `MockRequest` similar to Merb's `RequestHelper`. 
 * [Lookout::Rack::Test](https://github.com/lookout/lookout-rack-test) - RSpec and Cucumber test helpers.
 * [test-unit-capybara](https://github.com/test-unit/test-unit-capybara/) -  integration testing helper library for Rack applications, a Capybara 
-  adapter for adapter for [test-unit](https://github.com/test-unit/test-unit) 
+  adapter for [test-unit](https://github.com/test-unit/test-unit) 
   
 ## Miscellaneous
 
