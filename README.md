@@ -35,6 +35,7 @@ awesome-rack
 * [Concisely about Rack applications](http://zaiste.net/2012/08/concisely_about_rack_applications/)
 * [Exploring Rack](http://code.tutsplus.com/tutorials/exploring-rack--net-32976)
 * [Rack basics](http://albertogrespan.com/blog/rack-basics/) - Covers basic usage of Response, ERB template and the `rackup` tool.
+* [Rack Authentication Middleware](http://codefol.io/posts/Rack-Authentication-Middleware)
 * [Rack middleware](http://albertogrespan.com/blog/rack-middleware/) - Create two simple middlewares and glue it all together using `Rack::Builder`
 * [What is Rack, please?](http://southdesign.de/blog/rack.html)
 * [A simple Ruby Rack router](https://erikeldridge.wordpress.com/2010/02/21/simple-ruby-rack-router/) - a simple router in 17 lines of code
@@ -165,6 +166,12 @@ awesome-rack
   [nack](http://github.com/josh/nack)      
 * [Mizuno](https://github.com/matadon/mizuno) - Jetty-powered running shoes for JRuby/Rack. A Rack server for JRuby.  It uses the embeddable Jetty 
   Java servlet container. Mizuno also supports asynchronous request handling, via the Java Servlet 3.0 asynchronous processing mechanism
+  
+> Miscellaneous handlers
+
+* [Grack](https://github.com/schacon/grack) - GIt Smart HTTP Server Rack Implementation. This project aims to replace the builtin git-http-backend 
+  CGI handler distributed with C Git with a Rack application. This reason for doing this is to allow far more webservers to be able to handle Git smart 
+  http requests. Grack inspired [git_http_backend.py](https://github.com/dvdotsenko/git_http_backend.py) and [Git Web Access (ASP.NET/IIS)](https://github.com/yysun/Git-Web-Access)  
 
 ## Frameworks
 
@@ -213,7 +220,10 @@ awesome-rack
 * [Pancake](https://github.com/hassox/pancake) - Construct Rack stacks as mixins. Almost all key aspects of web frameworks are 
   covered in Pancake as mixins to help you create your own re-usable Rack Stacks without worrying about the really low level 
   plumbing.
-* [Grape](https://github.com/intridea/grape) - An opinionated micro-framework for creating REST-like APIs in Ruby. 
+* [Grape](https://github.com/intridea/grape) - An opinionated micro-framework for creating REST-like APIs in Ruby.
+* [Napa](https://github.com/bellycard/napa) - simple framework for building Rack based APIs using Grape, Roar and ActiveRecord.  
+  It's designed to make it easy to quickly create and deploy new API services by providing generators, middlewares and a console 
+   similar to what you would expect from a Rails app 
 * [Crep](https://github.com/crepe/crepe) - a lightweight API framework designed to help you write clean, fast web services in Ruby. 
   With an elegant and intuitive DSL inspired by RSpec, and with a nod to Grape, Crepe makes API design simple.
 * [Lotus](https://github.com/lotus)- A complete MVC web framework for Ruby.
@@ -464,6 +474,7 @@ awesome-rack
 * [rack-cache-smash](https://github.com/eliotsykes/rack-cache-smash) - Rack middleware to cache bust *every* CSS and JS asset request
 * [Rack::Cachely](https://github.com/markbates/rack-cachely) - Rack Middleware for working with the CachelyApp Page Cache Service, 
   [Cachely](http://www.cachelyapp.com/)
+* [Faraday Http Cache](https://github.com/plataformatec/faraday-http-cache) - A Faraday middleware that respects HTTP cache, by checking expiration and validation of the stored responses.  
 * [Moneta](https://github.com/minad/moneta) - Moneta provides a standard interface for interacting with various kinds of key/value stores.
    Moneta supports the well-known NoSQL and document based stores.    
    
@@ -485,7 +496,11 @@ awesome-rack
 * [Shield](https://github.com/cyx/shield) - Authentication protocol for use in your routing and model context (~ 110 LOC)
 * [Heroku Bouncer](https://github.com/heroku/heroku-bouncer) - Rack middleware (implemented in Sinatra) that requires Heroku 
   OAuth on all requests.  
-* [Rack::FacebookConnect](https://github.com/intridea/rack_facebook_connect) - A Rack middleware for Facebook Connect authentication.  
+* [sinatra_auth_github](https://github.com/atmos/sinatra_auth_github) - A sinatra extension that provides oauth authentication to github. See Scott Chacon's 
+  [Minimal Sinatra GitHub Application](https://github.com/schacon/ghapp.sinatra.min) for a demostration.   
+* [Rack::FacebookConnect](https://github.com/intridea/rack_facebook_connect) - A Rack middleware for Facebook Connect authentication.
+* [Rack::Cerberus](https://github.com/mig-hub/cerberus) -  Rack middleware for form-based authentication. It works roughly like Basic HTTP authentication 
+  except that you can use options in order to style the authentication page.  
 
 > Middlwares for Asset Pipeline
 
@@ -543,7 +558,7 @@ awesome-rack
 * [rack-mini-profiler](https://github.com/MiniProfiler/rack-mini-profiler) - Middleware that displays speed badge for every html page.
   A simple but effective mini-profiler for .NET, Ruby, Go and Node.js. Introduced in [`Railscasts #368 MiniProfiler`](http://railscasts.com/episodes/368-miniprofiler)
 * [racksh](https://github.com/sickill/racksh) - Console for Rack based ruby web apps. It's like script/console in Rails (~ 100 LOC) 
-  or merb -i in Merb, but for any app built on Rack.
+  or merb -i in Merb, but for any app built on Rack. Thanks to `Rack::Test::Methods` (from `rack-test`) and Ruby REPLs (`pry` and `irb`).
 * [rack-monitor](https://github.com/pka/rack-monitor) - Rack middleware for collecting run-time information for monitoring tools like Munin
 * [Rack::PerftoolsProfiler](https://github.com/bhb/rack-perftools_profiler) - Middleware for profiling Rack-compatible apps using 
   [perftools.rb](http://github.com/tmm1/perftools.rb)
@@ -564,6 +579,13 @@ awesome-rack
   TOR nodes. Inspired by `rack-block`
 * `ActionDispatch::RemoteIp` from [Rail's ActionController Middleware Stack](https://github.com/rails/rails/tree/master/actionpack/lib/action_dispatch/middleware) - Checks for IP spoofing attacks.
 * [Rack::Throttle](https://github.com/bendiken/rack-throttle) - provides logic for rate-limiting incoming HTTP requests to Rack applications.
+
+> Middlewares for WebSocket
+
+* [faye-websocket-ruby](https://github.com/imanel/websocket-rack) - Standards-compliant WebSocket client and server. A general-purpose WebSocket implementation extracted from 
+  the [Faye](http://faye.jcoglan.com/) project
+* [websocket-rack](https://github.com/imanel/websocket-rack) - Rack-based WebSocket server
+* [SinatraWebsocket](https://github.com/simulacre/sinatra-websocket) - Makes it easy to upgrade any request to a websocket connection in Sinatra  
 
 > Miscellaneous Middlewares
 
@@ -611,7 +633,9 @@ awesome-rack
 * [Rack::Polymer](https://github.com/yb66/rack-polymer) - Polymer CDN script tags and fallback in one neat package. Polymer leverages web components, a new set of standards designed 
   to provide reusable components for the web
 * [Rack::Stream](https://github.com/intridea/rack-stream) - A middleware for building multi-protocol streaming rack endpoints. It's also a simple Stream DSL.
-  
+* [Rack::StreamingProxy](https://github.com/darbyfrey/rack-streaming-proxy) - A transparent streaming proxy to be used as rack middleware. Streaming proxy for Rack, the rainbows 
+   to Rack::Proxy's unicorn
+   
 ## Helpers and Tools
 
 * From [Rack built-in middlewares](https://github.com/rack/rack):
@@ -637,7 +661,7 @@ awesome-rack
     
     * [Rackup howto](https://github.com/rack/rack/wiki/%28tutorial%29-rackup-howto)
     
-* [rack-test](https://github.com/brynary/rack-test) - A layer on top of Rack's `MockRequest` similar to Merb's `RequestHelper`. 
+* [rack-test](https://github.com/brynary/rack-test) - A layer on top of Rack's `MockRequest` similar to Merb's `RequestHelper`. (~ 200 LOC)
 * [Lookout::Rack::Test](https://github.com/lookout/lookout-rack-test) - RSpec and Cucumber test helpers.
 * [test-unit-capybara](https://github.com/test-unit/test-unit-capybara/) -  integration testing helper library for Rack applications, a Capybara 
   adapter for [test-unit](https://github.com/test-unit/test-unit) 
@@ -651,6 +675,10 @@ awesome-rack
 * [rack-client](https://github.com/halorgium/rack-client) - A HTTP client that aims to be a good Rack citizen.  
 * [rack-api](https://github.com/fnando/rack-api) - Create web app APIs that respond to one or more formats using an elegant DSL
 * [weary](https://github.com/mwunsch/weary) - A framework and DSL for building RESTful web service clients. Full Rack integration
+* [rest-core](https://github.com/godfat/rest-core) - Modular Ruby clients interface for REST APIs. rest-core consists of composable middleware that 
+  allows you to build a REST client for any REST API. Or in the case of common APIs such as Facebook, Github, and Twitter, you can simply 
+  use the dedicated clients provided by [rest-more](https://github.com/godfat/rest-more). See the slide 
+  [The Promise of rest-core](http://godfat.org/slide/2015-01-13-rest-core-promise/) for more info.
 
 > Vagrant Middlewares
   
