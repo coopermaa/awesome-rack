@@ -155,7 +155,10 @@ awesome-rack
 * [Puma](https://github.com/puma/puma) - A simple, fast, threaded, and highly concurrent HTTP 1.1 server writtern in Ruby.
 * [Reel](https://github.com/celluloid/reel) - A fast, non-blocking "evented" web server written in Ruby. You'll need 
   [reel-rack](https://github.com/celluloid/reel-rack), a Rack adapter for Reel. Reel uses [Celluloid](https://github.com/celluloid/celluloid), an
-  Actor-based concurrent object framework for Ruby.  When you create new instances of a class, they're actually concurrent objects, each running 
+  Actor-based concurrent object framework for Ruby.  When you create new instances of a class, they're actually concurrent objects, each running
+  * [Reel::DSL](https://github.com/celluloid/reel-dsl/) - Minimalist Reel CRUD/WS/SSE endpoint routing. Supports URI-based HTTP/S requests, and Web Sockets
+   & Server Sent Events. Influenced by Angelo and Sinatra.
+  * [Angelo](https://github.com/kenichi/angelo) - Sinatra-like DSL for Reel that supports WebSockets and SSE
   in their own thread, called "cells" (or actors).
 * [Unicorn](http://bogomips.org/unicorn.git) - Rack HTTP server for fast clients and Unix. Mostly wriiten in pure Ruby. Provides `unicorn` - 
   a rackup-like command to launch the Unicorn HTTP server (it uses Rack::Builder DSL) and `unicorn_rails` - a script/server-like command 
