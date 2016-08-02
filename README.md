@@ -159,7 +159,9 @@ awesome-rack
   * [Reel::DSL](https://github.com/celluloid/reel-dsl/) - Minimalist Reel CRUD/WS/SSE endpoint routing. Supports URI-based HTTP/S requests, and Web Sockets
    & Server Sent Events. Influenced by Angelo and Sinatra.
   * [Angelo](https://github.com/kenichi/angelo) - Sinatra-like DSL for Reel that supports WebSockets and SSE
-  in their own thread, called "cells" (or actors).
+    in their own thread, called "cells" (or actors). Angelo uses Celluloid, Celluloid::IO. Angelo replaces 
+    [Sinatra::Synchrony](https://github.com/kyledrake/sinatra-synchrony) which is a very small extension for Sinatra Powered by EventMachine and EM-Synchrony
+    that dramatically improves the concurrency of your web application. 
 * [Unicorn](http://bogomips.org/unicorn.git) - Rack HTTP server for fast clients and Unix. Mostly wriiten in pure Ruby. Provides `unicorn` - 
   a rackup-like command to launch the Unicorn HTTP server (it uses Rack::Builder DSL) and `unicorn_rails` - a script/server-like command 
   to launch the Unicorn HTTP server
@@ -170,6 +172,7 @@ awesome-rack
 * [YARS](https://github.com/ianks/yars) - A server for your (Rack) apps.  
 * [Goliath](https://github.com/postrank-labs/goliath) - a non-blocking Ruby web server framework. Bare metal performance, 
   Rack API and middleware support, simple configuration, fully asynchronous processing, and readable and maintainable code.
+  The framework is powered by an EventMachine reactor, a high-performance HTTP parser and Ruby 1.9+ runtime. 
 * [Mongrel](https://github.com/mongrel/mongrel) - A HTTP library and web server written in Ruby. What makes Mongrel so fast is the 
   careful use of an Ragel extension to provide fast, accurate HTTP 1.1 protocol parsing. (deprecated)
 * [Mongrel2](https://github.com/mongrel2/mongrel2) - An application, language, and network architecture agnostic web server 
@@ -183,13 +186,15 @@ awesome-rack
   Java servlet container. Mizuno also supports asynchronous request handling, via the Java Servlet 3.0 asynchronous processing mechanism
 * [TorqueBox](https://github.com/torquebox/torquebox) - Ruby Web & Application Server built on JBoss and JRuby. 
   TorqueBox goes beyond providing web-centric services (supporting Rails, Rack, Sinatra, etc), to also expose other 
-  enterprise-grade services to Ruby applications. 
+  enterprise-grade services to Ruby applications.
+* [H2O](https://h2o.examp1e.net/) - an optimized HTTP/1, HTTP/2 server. H2O supports Rack interface for MRuby.   
   
 > Miscellaneous handlers
 
 * [Grack](https://github.com/schacon/grack) - GIt Smart HTTP Server Rack Implementation. This project aims to replace the builtin git-http-backend 
   CGI handler distributed with C Git with a Rack application. This reason for doing this is to allow far more webservers to be able to handle Git smart 
-  http requests. Grack inspired [git_http_backend.py](https://github.com/dvdotsenko/git_http_backend.py) and [Git Web Access (ASP.NET/IIS)](https://github.com/yysun/Git-Web-Access)  
+  http requests. Grack inspired [git_http_backend.py](https://github.com/dvdotsenko/git_http_backend.py) and 
+  [Git Web Access (ASP.NET/IIS)](https://github.com/yysun/Git-Web-Access)  
 
 ## Frameworks
 
@@ -218,6 +223,8 @@ awesome-rack
 * [NYNY](https://github.com/alisnic/nyny) - A (ridiculously) small and powerful web framework (~ 300 LOC). NYNY uses 
   [Journey](https://github.com/rails/journey) for routing(Rail's router). A NYNY app is a Rack middleware,  it can be used inside 
   Sinatra, Rails, or any other Rack-based app
+* [Eldr](https://github.com/eldr-rb/eldr) - a lightweight, simple, modular and above all, clear framework without all the magic. (~500 LOC).
+  Eldr uses [Mustermann](https://github.com/rkh/mustermann) to build its Router.    
 * [rack-server-pages](https://github.com/migrs/rack-server-pages) - Rack middleware and application for serving dynamic pages in very 
   simple way. There are no controllers or models, just only views like a jsp, asp and php!
 * [Serve](https://github.com/jlong/serve) - A small Rack-based web server that makes it easy to serve HTML, ERB, Haml, or a variety of 
@@ -277,6 +284,9 @@ awesome-rack
   * [sinatra-contrib](https://github.com/sinatra/sinatra-contrib) - Collection of common Sinatra extensions.
   * [sinatra-receipes](https://github.com/sinatra/sinatra-recipes) - Community contributed recipes and techniques for the Sinatra Web Framework
   * [sinatra-book](https://github.com/sinatra/sinatra-book) - A cookbook full of excellent tutorials and recipes for developing Sinatra web applications.
+  * [Frameworks inspired by Sinatra on Wikipedia](https://en.wikipedia.org/w/index.php?title=Sinatra_(software)&oldid=690374847) - e.g.: 
+    Ruby (Padrino, Nancy), PHP (Slim, deano), JavaScript (Express), CoffeeScript (Zappa), Python (Flask), Go (Martini, Goji), Scala (Finatra, Scaltra),
+    Java (Spark), Haskell (Scotty), Bash (sh.inatra), Lua (Orbit, Mercury), Perl (Dancer)
 
 * [padrino](https://github.com/padrino/padrino-framework) - Padrino is a full-stack ruby framework built upon Sinatra
 
@@ -484,7 +494,7 @@ awesome-rack
 * [rack-unreloader](https://github.com/jeremyevans/rack-unreloader) - A rack library that reloads application files when it 
   detects changes, unloading constants defined in those files before reloading
 * [guard-rack](https://github.com/dblock/guard-rack) - Restart Rack when files change  
-* `ActionDispatch::Reloader` from [Rail's ActionController Middleware Stack](https://github.com/rails/rails/tree/master/actionpack/lib/action_dispatch/middleware) -
+* `ActionDispatch::Reloader` from [Rail's ActionController Middleware Stack](https://goo.gl/v8ydkH) -
   Provides prepare and cleanup callbacks, intended to assist with code reloading during development
 * [rack-livereload](https://github.com/johnbintz/rack-livereload) - Bring in livereload.js into handy Rack middleware  
 
@@ -559,7 +569,10 @@ awesome-rack
 * [rack-cache-smash](https://github.com/eliotsykes/rack-cache-smash) - Rack middleware to cache bust *every* CSS and JS asset request
 * [Rack::Cachely](https://github.com/markbates/rack-cachely) - Rack Middleware for working with the CachelyApp Page Cache Service, 
   [Cachely](http://www.cachelyapp.com/)
-* [Faraday Http Cache](https://github.com/plataformatec/faraday-http-cache) - A Faraday middleware that respects HTTP cache, by checking expiration and validation of the stored responses.  
+* [Faraday Http Cache](https://github.com/plataformatec/faraday-http-cache) - A Faraday middleware that respects HTTP cache, by checking expiration and validation of the stored responses.
+* [Rack::Worker](https://github.com/csquared/rack-worker) - Rack middleware that implements the Worker Pattern. It processes GET requests with a worker 
+  backend and only serves them straight from a cache. While processing the request it serves empty HTTP 202 responses. Your web frontend is never 
+  blocked processing the request.  
 * [Moneta](https://github.com/minad/moneta) - Moneta provides a standard interface for interacting with various kinds of key/value stores.
    Moneta supports the well-known NoSQL and document based stores.    
    
@@ -871,4 +884,9 @@ awesome-rack
   framework, but it was also influenced by Python's WSGI (`PEP 333`). It's not a direct clone of either of them, though, 
   and tries to follow standard Lua idioms. 
   
-* [StackPHP (PHP)](http://stackphp.com/) - a PHP interface for framework-agnostic code sharing  
+* [StackPHP (PHP)](http://stackphp.com/) - a PHP interface for framework-agnostic code sharing
+
+* [OWIN (.NET)](http://owin.org/) - Open Web Interface for .NET, defines a standard interface between .NET web servers 
+  and web applications. The goal of the OWIN interface is to decouple server and application, encourage the development
+  of simple modules for .NET web development, and, by being an open standard, stimulate the open source ecosystem of 
+  .NET web development tools. [Katana](https://katanaproject.codeplex.com/) is the implementation of OWIN components.
