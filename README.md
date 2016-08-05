@@ -188,7 +188,7 @@ awesome-rack
   enterprise-grade services to Ruby applications.
 * [H2O](https://h2o.examp1e.net/) - an optimized HTTP/1, HTTP/2 server. H2O supports Rack interface for MRuby.   
   
-> Miscellaneous handlers
+> Miscellaneous
 
 * [Grack](https://github.com/schacon/grack) - GIt Smart HTTP Server Rack Implementation. This project aims to replace the builtin git-http-backend 
   CGI handler distributed with C Git with a Rack application. This reason for doing this is to allow far more webservers to be able to handle Git smart 
