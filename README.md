@@ -5,17 +5,16 @@ awesome-rack
 
 # Contents
 
-- [Awesome Rack](#awesome-rack)
-    - [General](#general)
-    - [Tutorials](#tutorials)
-    - [Presentations](#presentations)
-    - [Videos](#videos)
-    - [Web Servers](#web-servers)
-    - [Frameworks](#frameworks)
-    - [Middlewares](#middlewares)
-    - [Helpers and Tools](#helpers-and-tools)
-    - [Miscellaneous](#miscellaneous)
-    - [Inspiration](#inspiration)
+- [General](#general)
+- [Tutorials](#tutorials)
+- [Presentations](#presentations)
+- [Videos](#videos)
+- [Web Servers](#web-servers)
+- [Frameworks](#frameworks)
+- [Middlewares](#middlewares)
+- [Helpers and Tools](#helpers-and-tools)
+- [Miscellaneous](#miscellaneous)
+- [Inspiration](#inspiration)
 
 ## General
 
