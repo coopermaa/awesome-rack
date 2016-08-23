@@ -687,6 +687,12 @@ awesome-rack
 * [websocket-rack](https://github.com/imanel/websocket-rack) - Rack-based WebSocket server
 * [SinatraWebsocket](https://github.com/simulacre/sinatra-websocket) - Makes it easy to upgrade any request to a websocket connection in Sinatra  
 
+> Middlewares for SEO
+
+* [seojs-ruby](https://github.com/seojs/seojs-ruby) - Rack middleware to integrate SEO.js to your Rails or Sinatra app.
+  SEO.js makes your BackboneJS, AngularJS or EmberJS apps crawlable by Google to make them appear in search results
+* [Rack SEO](https://github.com/xavriley/rack-seo) - Generate SEO friendly meta tags on the fly using Rack Middleware
+
 > Miscellaneous Middlewares
 
 * [rack-pygmentize](https://github.com/leejarvis/rack-pygmentize) - use the generic syntax highlighter Pygments library 
@@ -736,7 +742,8 @@ awesome-rack
 * [Rack::Stream](https://github.com/intridea/rack-stream) - A middleware for building multi-protocol streaming rack endpoints. It's also a simple Stream DSL.
 * [Rack::StreamingProxy](https://github.com/darbyfrey/rack-streaming-proxy) - A transparent streaming proxy to be used as rack middleware. Streaming proxy for Rack, the rainbows 
    to Rack::Proxy's unicorn
-* [Pusher](https://github.com/macournoyer/pusher) - A Rack middleware that implement Ajax Push aka Comet   
+* [Pusher](https://github.com/macournoyer/pusher) - A Rack middleware that implement Ajax Push aka Comet
+* [Robocop](https://github.com/pjkelly/robocop) - a simple Rack middleware that inserts the X-Robots-Tag into the headers of all your responses   
    
 ## Helpers and Tools
 
