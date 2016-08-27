@@ -44,7 +44,8 @@ awesome-rack
 * [Getting Started with Rack](https://gist.github.com/markbates/4240848) - use Rack::Builder to create a simple framework that
   handles HTTP GET requests.
 * [Understanding Rack Apps and Middleware](https://blog.engineyard.com/2015/understanding-rack-apps-and-middleware)
-* [Make Your Own Rack Server](http://www.blrice.net/blog/2015/05/31/make-your-own-rack-server/)    
+* [Make Your Own Rack Server](http://www.blrice.net/blog/2015/05/31/make-your-own-rack-server/)
+* [Testing Rack-based APIs with Cucumber and RSpec](http://hackers.lookout.com/2014/01/testing-rack-based-apis-with-cucumber-and-rspec/)    
 * [Rails on Rack](http://guides.rubyonrails.org/rails_on_rack.html) - Covers Rails integration with Rack and interfacing with other Rack 
   components. This guide tells you how to use Rack Middlewares in your Rails applications, Action Pack's internal Middleware stack and
   how to define a custom Middleware stack.
