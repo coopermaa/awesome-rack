@@ -75,6 +75,7 @@ awesome-rack
 * [Rack: A Framework to roll your own by Nishant Modak](https://speakerdeck.com/nishantmodak/rack-a-framework-to-roll-your-own)
 * [Ruby MVC from scratch with Rack](https://speakerdeck.com/donschado/ruby-mvc-from-scratch-with-rack) - WOW! The example code is 
   available on the GitHub repo [Frack-MVC](https://github.com/DonSchado/Frack-MVC)
+* [Building web framework with Rack](http://www.slideshare.net/sickill/building-web-framework-with-rack)  
 * [Constructing Web APIs with Rack, Sinatra and MongoDB by Oisin Hurley](http://www.slideshare.net/oisin/constructing-web-apis-with-rack-sinatra-and-mongodb)
 * [Streaming APIs with Ruby by Jerry Cheung](https://speakerdeck.com/jch/streaming-apis-with-ruby)
 * [Middleware: A General Purpose Abstraction by Mitchell Hashimoto](https://speakerdeck.com/mitchellh/middleware-a-general-purpose-abstraction) 
