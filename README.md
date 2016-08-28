@@ -411,42 +411,45 @@ awesome-rack
     * `Rack::TimeZone` - Detects the client's timezone using JavaScript and sets a variable in Rack's environment with the offset from UTC.
     * `Rack::TryStatic` - Tries to match request to a static file
 
-* [List of Middleware](https://github.com/rack/rack/wiki/List-of-Middleware) on Rack's Wiki. Copied here (ver 2015/07/28):
+* [List of Middleware](https://github.com/rack/rack/wiki/List-of-Middleware) on Rack's Wiki. Copied here (ver 2016/03/03):
 
-    * `JSON-P`:http://github.com/rack/rack-contrib/tree/master/lib/rack/contrib/jsonp.rb
-    * `Rack::Cache`:http://github.com/rtomayko/rack-cache/tree/master is suitable as a quick drop-in component to enable HTTP caching.
-    * `Rack::ESI`:http://github.com/Qerub/rack-esi/tree/master is a small (but still very useful!) subset of ESI (Edge Side Includes).
-    * `CloudKit`:http://getcloudkit.com includes OpenIDFilter, OAuthFilter, and RESTful JSON storage
-    * `Rack::Config`:http://github.com/jcrosby/rack-config/tree/master - Shared configuration for cooperative middleware.
-    * `Rack::OpenID`:http://github.com/josh/rack-openid/tree/master provides a more HTTPish API around the ruby-openid library. 
-    * `Rack::Debug`:http://github.com/ddollar/rack-debug
-    * `Rack::AbstractFormat`:http://github.com/mynyml/rack-abstract-format
-    * `Rack::RespondTo`:http://github.com/mynyml/rack-respond_to allows triggering different actions based on requested media type.
-    * `Rack::SupportedMediaTypes`:http://github.com/mynyml/rack-supported-media-types specify an app's supported media types.
-    * `Rack::AcceptMediaTypes`:http://github.com/mynyml/rack-accept-media-types determine the request's prefered media type.
-    * `Rack::MultipartRelated`:http://github.com/lucasfais/rack-multipart_related parses multipart/related requests and rebuild a simple/merged parameters hash.
-    * `Rack::Heartbeat`:https://github.com/imajes/rack-heartbeat Add a configurable heartbeat/health-check/ping url to your app
-    * `Rack::Honeypot`:http://github.com/sunlightlabs/rack-honeypot acts as a spam trap.
-    * `Rack::GoogleAnalytics`:http://github.com/ambethia/rack-google_analytics/tree/master embeds Google Analytics tracking code. 
-    * `Rack::Embed`:http://github.com/minad/rack-embed embeds small images via the data-url (base64) if the browser supports it. This reduces http traffic.
-    * `Warden`:http://github.com/hassox/warden General Rack Authentication Framework
-    * `Rack::StaticFallback`:http://github.com/dolzenko/rack-static_fallback bounces or redirects requests to missing static files.
-    * `Rack::Throttle`:http://github.com/datagraph/rack-throttle provides logic for rate-limiting incoming HTTP requests to Rack applications.
-    * `Rack::LinkedData`:https://github.com/ruby-rdf/rack-linkeddata implements Linked Data content negotiation.
-    * `SimpleRouter`:http://github.com/mynyml/simple_router
-    * `Cylon`:https://github.com/dmathieu/cylon Disallows application indexation by search engines except in production. Rack Middleware and Rails Engine.
-    * `Slogger::Rack::RequestLogger`:https://github.com/leandrosilva/slogger if you want to log on Syslog.
-    * `Rack::Batik::SVG`:https://github.com/crapooze/jruby-rack-batik transcodes SVG pictures to JPEG
-    * `Rack::Referrals`:https://github.com/deviantech/rack-referrals extracts referring search engine info
-    * `Muster`:https://github.com/claco/muster parses some or all of the query string in varying formats into hashes. Helps adding human friendly (not rack/rails nested) query string options to APIs and such.
-    * `Moneta`:https://github.com/minad/moneta adds Rack::MonetaStore (places key/value store in env, support for per-request caching), Rack::MonetaCookies (allow Moneta to be used to store cookies) and Rack::MonetaRest (expose a key/value store via HTTP/REST)
-    * `RouteDowncaser`:https://github.com/carstengehling/route_downcaser makes all routing in Rails case-insensitive.
-    * `Rack::CanIUse`:http://github.com/louismullie/rack-caniuse checks if user agents support the HTML/CSS technologies used by your website using the CanIUse database.
-    * `Rack::Attack`:https://github.com/kickstarter/rack-attack A DSL for blocking & throttling abusive clients
-    * `ChromeLogger`:https://github.com/cookrn/chrome_logger A Ruby library that implements the `Chrome Logger`:http://craig.is/writing/chrome-logger spec as Rack middleware
-    * `Rack::DetectTor`:https://github.com/warrenguy/rack-detect-tor Detect Tor exit users
-    * `Rack::RackTorBlock`:https://github.com/Gild/rack-tor-block Block access to a rack application from any client accessing from the Tor network
-    
+    * [JSON-P](http://github.com/rack/rack-contrib/tree/master/lib/rack/contrib/jsonp.rb)
+    * [Rack::Cache](http://github.com/rtomayko/rack-cache/tree/master) is suitable as a quick drop-in component to enable HTTP caching.
+    * [Rack::ESI](http://github.com/Qerub/rack-esi/tree/master) is a small (but still very useful!) subset of ESI (Edge Side Includes).
+    * [CloudKit](http://getcloudkit.com) includes OpenIDFilter, OAuthFilter, and RESTful JSON storage
+    * [Rack::Config](http://github.com/jcrosby/rack-config/tree/master) - Shared configuration for cooperative middleware.
+    * [Rack::OpenID](http://github.com/josh/rack-openid/tree/master) provides a more HTTPish API around the ruby-openid library. 
+    * [Rack::Debug](http://github.com/ddollar/rack-debug)
+    * [Rack::AbstractFormat](http://github.com/mynyml/rack-abstract-format)
+    * [Rack::RespondTo](http://github.com/mynyml/rack-respond_to) allows triggering different actions based on requested media type.
+    * [Rack::SupportedMediaTypes](http://github.com/mynyml/rack-supported-media-types) specify an app's supported media types.
+    * [Rack::AcceptMediaTypes](http://github.com/mynyml/rack-accept-media-types) determine the request's prefered media type.
+    * [Rack::MultipartRelated](http://github.com/lucasfais/rack-multipart_related) parses multipart/related requests and rebuild a simple/merged parameters hash.
+    * [Rack::Heartbeat](https://github.com/imajes/rack-heartbeat) Add a configurable heartbeat/health-check/ping url to your app
+    * [Rack::Honeypot](http://github.com/sunlightlabs/rack-honeypot) acts as a spam trap.
+    * [Rack::GoogleAnalytics](http://github.com/ambethia/rack-google_analytics/tree/master) embeds Google Analytics tracking code. 
+    * [Rack::Embed](http://github.com/minad/rack-embed) embeds small images via the data-url (base64) if the browser supports it. This reduces http traffic.
+    * [Warden](http://github.com/hassox/warden) General Rack Authentication Framework
+    * [Rack::StaticFallback](http://github.com/dolzenko/rack-static_fallback) bounces or redirects requests to missing static files.
+    * [Rack::Throttle](http://github.com/datagraph/rack-throttle) provides logic for rate-limiting incoming HTTP requests to Rack applications.
+    * [Rack::LinkedData](https://github.com/ruby-rdf/rack-linkeddata) implements Linked Data content negotiation.
+    * [SimpleRouter](http://github.com/mynyml/simple_router)
+    * [Cylon](https://github.com/dmathieu/cylon) Disallows application indexation by search engines except in production. Rack Middleware and Rails Engine.
+    * [Slogger::Rack::RequestLogger](https://github.com/leandrosilva/slogger) if you want to log on Syslog.
+    * [Rack::Batik::SVG](https://github.com/crapooze/jruby-rack-batik) transcodes SVG pictures to JPEG
+    * [Rack::Referrals](https://github.com/deviantech/rack-referrals) extracts referring search engine info
+    * [Muster](https://github.com/claco/muster) parses some or all of the query string in varying formats into hashes. Helps adding human friendly (not rack/rails nested) query string options to APIs and such.
+    * [Moneta](https://github.com/minad/moneta) adds Rack::MonetaStore (places key/value store in env, support for per-request caching), Rack::MonetaCookies (allow Moneta to be used to store cookies) and Rack::MonetaRest (expose a key/value store via HTTP/REST)
+    * [RouteDowncaser](https://github.com/carstengehling/route_downcaser) makes all routing in Rails case-insensitive.
+    * [Rack::CanIUse](http://github.com/louismullie/rack-caniuse) checks if user agents support the HTML/CSS technologies used by your website using the CanIUse database.
+    * [Rack::Attack](https://github.com/kickstarter/rack-attack) A DSL for blocking & throttling abusive clients
+    * [ChromeLogger](https://github.com/cookrn/chrome_logger) A Ruby library that implements the `Chrome Logger`:http://craig.is/writing/chrome-logger spec as Rack middleware
+    * [Rack::DetectTor](https://github.com/warrenguy/rack-detect-tor) Detect Tor exit users
+    * [Rack::RackTorBlock](https://github.com/Gild/rack-tor-block) Block access to a rack application from any client accessing from the Tor network
+    * [Rack::Turnout](https://github.com/biola/turnout/) Easily put your Rack apps into maintenance mode
+    * [Rack::CAS](https://github.com/biola/rack-cas) Simple CAS client authentication
+    * [Rack::AcornCache](https://github.com/acorncache/acorn-cache) Configurable HTTP proxy caching solution
+
 * [Rubygems](https://rubygems.org/) - Search the keywords [`rack`](https://rubygems.org/search?utf8=%E2%9C%93&query=rack) or 
   [`middleware`](https://rubygems.org/search?utf8=%E2%9C%93&query=middleware)
 
