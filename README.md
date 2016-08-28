@@ -443,7 +443,7 @@ awesome-rack
     * [RouteDowncaser](https://github.com/carstengehling/route_downcaser) makes all routing in Rails case-insensitive.
     * [Rack::CanIUse](http://github.com/louismullie/rack-caniuse) checks if user agents support the HTML/CSS technologies used by your website using the CanIUse database.
     * [Rack::Attack](https://github.com/kickstarter/rack-attack) A DSL for blocking & throttling abusive clients
-    * [ChromeLogger](https://github.com/cookrn/chrome_logger) A Ruby library that implements the `Chrome Logger`:http://craig.is/writing/chrome-logger spec as Rack middleware
+    * [ChromeLogger](https://github.com/cookrn/chrome_logger) A Ruby library that implements the [Chrome Logger](http://craig.is/writing/chrome-logger) spec as Rack middleware
     * [Rack::DetectTor](https://github.com/warrenguy/rack-detect-tor) Detect Tor exit users
     * [Rack::RackTorBlock](https://github.com/Gild/rack-tor-block) Block access to a rack application from any client accessing from the Tor network
     * [Rack::Turnout](https://github.com/biola/turnout/) Easily put your Rack apps into maintenance mode
