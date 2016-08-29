@@ -628,7 +628,8 @@ awesome-rack
 * [rack-asset-compiler](https://github.com/jbaudanza/rack-asset-compiler) - Rack middleware that provides a generic interface for 
   compiling static files, such as Sass or CoffeeScript files.
 * [Rack::Cat](https://github.com/ncr/rack-cat) - A Rack middleware to concatenate your assets (static, dynamic and remote) and 
-  serve javascripts and stylesheets faster.       
+  serve javascripts and stylesheets faster.
+* [Rack::Pack](https://github.com/petebrowne/rack-pack) - for packaging assets such as javascripts and stylesheets into a single file.
 
 > Middlewares for Debugging or Profiling
 
