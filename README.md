@@ -119,6 +119,7 @@ awesome-rack
 
 > Videos from other source
 
+* [Rack Applications and Middleware](https://www.youtube.com/watch?v=NJ-ilQMsqMs)
 * [Tekpub: Understanding Rack](https://www.youtube.com/watch?v=iJ-ZsWtHTIg)
 * [Using RSpec with Rack](https://www.youtube.com/watch?v=FV6AQEKxBOg)
 * [Code School - Scaling Rails Applications: Advanced HTTP Caching (Episode #10)](https://www.youtube.com/watch?v=2UvpMhzkktw) - 
