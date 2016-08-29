@@ -687,6 +687,8 @@ awesome-rack
   TOR nodes. Inspired by `rack-block`
 * `ActionDispatch::RemoteIp` from [Rail's ActionController Middleware Stack](https://github.com/rails/rails/tree/master/actionpack/lib/action_dispatch/middleware) - Checks for IP spoofing attacks.
 * [Rack::Throttle](https://github.com/bendiken/rack-throttle) - provides logic for rate-limiting incoming HTTP requests to Rack applications.
+* [Alpaca](https://github.com/jeffchao/alpaca) - allows developers to quickly and easily configure and manage a whitelist and/or blacklist
+* [Rack TCTP](https://github.com/TU-Berlin-SNET/tctp-rack) - middleware for enabling end-to-end security using the Trusted Cloud Transfer Protocol (TCTP)
 
 > Middlewares for WebSocket
 
