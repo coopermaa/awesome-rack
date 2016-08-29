@@ -750,7 +750,9 @@ awesome-rack
 * [Rack::StreamingProxy](https://github.com/darbyfrey/rack-streaming-proxy) - A transparent streaming proxy to be used as rack middleware. Streaming proxy for Rack, the rainbows 
    to Rack::Proxy's unicorn
 * [Pusher](https://github.com/macournoyer/pusher) - A Rack middleware that implement Ajax Push aka Comet
-* [Robocop](https://github.com/pjkelly/robocop) - a simple Rack middleware that inserts the X-Robots-Tag into the headers of all your responses   
+* [Robocop](https://github.com/pjkelly/robocop) - a simple Rack middleware that inserts the X-Robots-Tag into the headers of all your responses
+* [Rack::Geoip](https://github.com/ckraybill/rack-geoip) - A rack middleware component that handles simple geoip lookups.
+* [Rack::GeoIPCountry](https://github.com/tma/rack-geoipcountry) - uses the geoip gem and the GeoIP database to lookup the country of a request by its IP address   
    
 ## Helpers and Tools
 
