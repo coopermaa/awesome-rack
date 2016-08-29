@@ -795,7 +795,8 @@ awesome-rack
 * [test-unit-capybara](https://github.com/test-unit/test-unit-capybara/) -  integration testing helper library for Rack applications, a Capybara 
   adapter for [test-unit](https://github.com/test-unit/test-unit) 
 * [Split](https://github.com/splitrb/split) - Rack based ab testing framework designed to work with Rails, Sinatra or any other rack based app. 
-  Split is heavily inspired by the Abingo and Vanity rails ab testing plugins and Resque in its use of Redis   
+  Split is heavily inspired by the Abingo and Vanity rails ab testing plugins and Resque in its use of Redis
+* [Rack::Scaffold](https://github.com/mattt/rack-scaffold) - Automatically generate RESTful CRUD services     
   
 ## Miscellaneous
 
