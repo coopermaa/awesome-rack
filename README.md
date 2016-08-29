@@ -55,9 +55,13 @@ awesome-rack
 * [Asynchronous responses in Rack](http://polycrystal.org/posts/2012-04-14-async-rack.html)
 * [Building Streaming REST APIs with Ruby](http://www.intridea.com/blog/2012/5/24/building-streaming-rest-apis-with-ruby)
 * [Rack Developer's Notebook by Bala Paranj](http://files.meetup.com/437842/RackDevelopersNotebook.pdf)
+
+> Roll your own frameworks
+
 * [Let's Build a Sinatra (2015)](https://robots.thoughtbot.com/lets-build-a-sinatra)    
 * [EBook: Build Your Own Sinatra by K-2052 (2015)](http://buildyourownsinatra.com/)   
 * [Book: Rebuilding Rails by Noah Gibbs (2013)](https://rebuilding-rails.com/)
+* [Class: Owing Rails by Marc-André Cournoyer](http://owningrails.com/) - Understand the inner working of Rails by building a mini-version of Rails, from scratch 
 
 ## Presentations
 
