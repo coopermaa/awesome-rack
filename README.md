@@ -540,7 +540,8 @@ awesome-rack
   or choose your own adventure
 * [Roda](https://github.com/jeremyevans/roda) - Routing Tree Web Framework Toolkit
 * [Rack Reverse Proxy](https://github.com/waterlink/rack-reverse-proxy) - This is a simple reverse proxy for Rack that 
-  pretty heavily rips off Rack Forwarder.  
+  pretty heavily rips off Rack Forwarder.
+* [Rack::Rewrite](https://github.com/jtrupiano/rack-rewrite) - A rack middleware for defining and applying rewrite rules    
 
 > Middlewares for Session Management
 
