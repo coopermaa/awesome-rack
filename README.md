@@ -507,7 +507,8 @@ awesome-rack
 * [guard-rack](https://github.com/dblock/guard-rack) - Restart Rack when files change  
 * `ActionDispatch::Reloader` from [Rail's ActionController Middleware Stack](https://goo.gl/v8ydkH) -
   Provides prepare and cleanup callbacks, intended to assist with code reloading during development
-* [rack-livereload](https://github.com/johnbintz/rack-livereload) - Bring in livereload.js into handy Rack middleware  
+* [rack-livereload](https://github.com/johnbintz/rack-livereload) - Bring in livereload.js into handy Rack middleware
+* [guard-livereload](https://github.com/guard/guard-livereload) - automatically reload your browser when 'view' files are modified   
 
 > Middlewares for HTTP Routing
 
