@@ -65,7 +65,8 @@ awesome-rack
 * [Let's Build a Sinatra (2015)](https://robots.thoughtbot.com/lets-build-a-sinatra)    
 * [EBook: Build Your Own Sinatra by K-2052 (2015)](http://buildyourownsinatra.com/)   
 * [Book: Rebuilding Rails by Noah Gibbs (2013)](https://rebuilding-rails.com/)
-* [Class: Owing Rails by Marc-André Cournoyer](http://owningrails.com/) - Understand the inner working of Rails by building a mini-version of Rails, from scratch 
+* [Class: Owing Rails by Marc-André Cournoyer](http://owningrails.com/) - Understand the inner working of Rails by building a mini-version of Rails, from scratch
+  * [patterns](https://github.com/owningrails/patterns) - Rails-like framework built during the Owning Rails Masterclass to explain the design patterns behind Rails 
 
 ## Presentations
 
