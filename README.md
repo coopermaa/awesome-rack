@@ -695,7 +695,7 @@ awesome-rack
 
 * [rack-protection](https://github.com/sinatra/rack-protection) - This gem protects against typical web attacks. Prevented Attacks includes 
   `Cross Site Request Forgery`, `Cross Site Scripting`, `Clickjacking`, `Directory Traversal`, `Session Hijacking`, 
-  `IP Spoofing`.
+  `IP Spoofing`. Note: This project has been merged upstream to sinatra/sinatra.
 * [rack-attack](https://github.com/kickstarter/rack-attack) - Rack middleware for blocking & throttling abusive requests. 
   It allows whitelisting, blacklisting, throttling, and tracking based on arbitrary properties of the request.  
 * [rack-block](https://github.com/udzura/rack-block) - A rack middleware for controlling accesses by search bot or not, remote ip address, etc.  
