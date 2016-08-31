@@ -534,7 +534,8 @@ awesome-rack
 * [rack-router](https://github.com/pjb3/rack-router) - A simple router for rack apps. Requires Ruby 1.9+. (~ 200 LOC)
 * [SimpleRouter](http://github.com/mynyml/simple_router) - Small and simple standalone router, meant for use with Rack applications.
   Familiar Sinatra-like DSL for defining actions. Modular architecture.
-* [Syro](https://github.com/soveran/syro) - Simple router for web applications inspired by Cuba. (~ 250 LOC)  
+* [Syro](https://github.com/soveran/syro) - Simple router for web applications inspired by Cuba. (~ 250 LOC)
+* [Toro](https://github.com/soveran/toro) - Tree Oriented Routing  
 * [http_router](https://github.com/joshbuddy/http_router) - This is an HTTP router for use in either a web framework, 
   or on it's own using Rack. 
 * [sinatra-router](https://github.com/brandur/sinatra-router) - A tiny vendorable router that makes it easy to try 
