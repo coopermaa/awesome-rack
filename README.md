@@ -30,6 +30,7 @@ awesome-rack
 
 * [Introducing Rack](http://chneukirchen.org/talks/euruko-2007/neukirchen07introducingrack.pdf) by Christian Neukirchen - 
   An overview of Rack interface and the Rack gem.
+* [What's Rack](http://rubylearning.com/blog/2013/04/02/whats-rack/) - A Quick Introduction to Rack 
 * [A Quick Note on Rack](http://www.ralphonrails.com/rack/2015/07/05/a-quick-note-on-rack.html)   
 * [Concisely about Rack applications](http://zaiste.net/2012/08/concisely_about_rack_applications/)
 * [Exploring Rack](http://code.tutsplus.com/tutorials/exploring-rack--net-32976)
