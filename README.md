@@ -131,11 +131,13 @@ awesome-rack
   talks about max-age, etags, last_modified and Reverse Proxy caches. 
 * [Code School - Scaling Rails Applications: Rack & Metal (Episod #13)](https://www.youtube.com/watch?v=P0aOYjoH594)
 * [Rack Middleware as a General Purpose Abstraction by Mitchell Hashimoto](https://www.youtube.com/watch?v=i6pyhq3ZvyI)
-  * the slide is available on [speakdeck](https://speakerdeck.com/mitchellh/middleware-a-general-purpose-abstraction).
+  * the slide is available on [speakerdeck](https://speakerdeck.com/mitchellh/middleware-a-general-purpose-abstraction).
   * [Generalized middleware implementation for Ruby by Mitchell Hashimoto](https://github.com/mitchellh/middleware) - ~ 130 LOC
 * [Faking Sinatra with Rack and Middleware by Charles Wood](https://www.youtube.com/watch?v=uH4H5GQOSqQ)
 * [Rails Conf 2013 You've got a Sinatra on your Rails by José Valim](https://www.youtube.com/watch?v=TslkdT3PfKc) - Great look 
-  at how Rails uses Rack internally  
+  at how Rails uses Rack internally
+* [RailsConf 2014 - Rack::Attack: Protect your app with this one weird gem! byAaron Suggs](https://www.youtube.com/watch?v=m1UwxsZD6sw)
+  * the slide is available on [speakerdeck](https://speakerdeck.com/ktheory/rack-attack-protect-your-app-with-this-one-weird-gem)    
 
 ## Web Servers
 
