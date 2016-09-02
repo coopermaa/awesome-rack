@@ -124,6 +124,8 @@ awesome-rack
 
 > Videos from other source
 
+* [Getting Started with Rack by Salma Urmi](https://www.youtube.com/watch?v=cSjRbpl8lzQ)
+  * See also Mark Bate's article: [Getting Started with Rack](https://gist.github.com/markbates/4240848)
 * [Rack Applications and Middleware](https://www.youtube.com/watch?v=NJ-ilQMsqMs)
 * [Tekpub: Understanding Rack](https://www.youtube.com/watch?v=iJ-ZsWtHTIg)
 * [Using RSpec with Rack](https://www.youtube.com/watch?v=FV6AQEKxBOg)
