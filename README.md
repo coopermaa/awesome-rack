@@ -635,6 +635,7 @@ awesome-rack
   except that you can use options in order to style the authentication page.
 * [hancock](https://github.com/atmos/hancock/) - An OpenID based Single Sign On server with a simple API, written in Sinatra   
   * [hancock-click](https://github.com/atmos/hancock-client) - A sinatra app and rack middleware piece for the hancock SSO server
+* [ntlm-sso](https://github.com/rekado/ntlm-sso) - Rack authentication module for single sign on via NTLM. Note this is not a middleware.    
 
 > Middlwares for Asset Pipeline
 
