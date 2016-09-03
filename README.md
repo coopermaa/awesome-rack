@@ -635,7 +635,9 @@ awesome-rack
   except that you can use options in order to style the authentication page.
 * [hancock](https://github.com/atmos/hancock/) - An OpenID based Single Sign On server with a simple API, written in Sinatra   
   * [hancock-click](https://github.com/atmos/hancock-client) - A sinatra app and rack middleware piece for the hancock SSO server
-* [ntlm-sso](https://github.com/rekado/ntlm-sso) - Rack authentication module for single sign on via NTLM. Note this is not a middleware.    
+* [ntlm-sso](https://github.com/rekado/ntlm-sso) - Rack authentication module for single sign on via NTLM. Note this is not a middleware.
+* [CASino](https://github.com/rbCAS/CASino) - Ruby-based Single Sign-On solution supporting the CAS standard. Note this is not a middleware.    
+  * [CASinoApp](https://github.com/rbCAS/CASinoApp) - Ready to use CAS server based on CASino Rails Engine.
 
 > Middlwares for Asset Pipeline
 
