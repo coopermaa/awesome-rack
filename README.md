@@ -707,7 +707,10 @@ awesome-rack
 * [New Relic RPM Ruby Agent](https://github.com/newrelic/rpm) - New Relic is a performance management system. It provides you with deep information about 
   the performance of your Rails or Ruby application as it runs in production. When running in developer mode, the New Relic Ruby Agent acts as a Rack 
   middleware that maps /newrelic to an application for showing detailed performance metrics on a page by page basis. Installed automatically in Rails applications   
-  
+* [Airbrake::Rack::Middleware](https://github.com/airbrake/airbrake/blob/master/lib/airbrake/rack/middleware.rb) -
+  Airbrake Rack middleware for Rails and Sinatra applications (or any other Rack-compliant app). Any errors 
+  raised by the upstream application will be delivered to Airbrake and re-raised.  
+
 > Middlewares for Protection
 
 * [rack-protection](https://github.com/sinatra/rack-protection) - This gem protects against typical web attacks. Prevented Attacks includes 
