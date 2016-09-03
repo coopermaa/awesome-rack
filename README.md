@@ -1,7 +1,7 @@
 awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ===============
 
-> A curated list of awesome Ruby rack, middlewares, frameworks and web servers
+> A curated list of awesome Ruby rack, middlewares, frameworks and web servers.
 
 # Contents
 
@@ -18,20 +18,19 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 
 ## General
 
-* [Rack](http://rack.github.io/) - Ruby Rack Official website
+* [Rack](http://rack.github.io/) - Ruby Rack Official website.
 * [Rack on GitHub](https://github.com/rack/rack)
-* [rack-contrib](https://github.com/rack/rack-contrib) - Contributed Rack Middleware and Utilities
-* [Rack Spec](http://www.rubydoc.info/github/rack/rack/file/SPEC) - Rack Interface Specification
-* [Rack Wiki](https://github.com/rack/rack/wiki) - has a list of tutorals, presentations and middlewares.
-* [Rack Documentation](http://www.rubydoc.info/github/rack/rack/) - Rack Reference Documentation    
-* [the_metal](https://github.com/tenderlove/the_metal) - A spike for thoughts about Rack 2.0
-* [Rack Development](https://groups.google.com/forum/#!forum/rack-devel) - Rack Development list (Google Group)
+* [rack-contrib](https://github.com/rack/rack-contrib) - Contributed Rack Middleware and Utilities.
+* [Rack Spec](http://www.rubydoc.info/github/rack/rack/file/SPEC) - Rack Interface Specification.
+* [Rack Wiki](https://github.com/rack/rack/wiki) - Has a list of tutorals, presentations and middlewares.
+* [Rack Documentation](http://www.rubydoc.info/github/rack/rack/) - Rack Reference Documentation.   
+* [the_metal](https://github.com/tenderlove/the_metal) - A spike for thoughts about Rack 2.0.
+* [Rack Development](https://groups.google.com/forum/#!forum/rack-devel) - Rack Development list (Google Group).
     
 ## Tutorials
 
-* [Introducing Rack](http://chneukirchen.org/talks/euruko-2007/neukirchen07introducingrack.pdf) by Christian Neukirchen - 
-  An overview of Rack interface and the Rack gem.
-* [What's Rack](http://rubylearning.com/blog/2013/04/02/whats-rack/) - A Quick Introduction to Rack 
+* [Introducing Rack](http://chneukirchen.org/talks/euruko-2007/neukirchen07introducingrack.pdf) - An overview of Rack interface and the Rack gem by Christian Neukirchen.
+* [What's Rack](http://rubylearning.com/blog/2013/04/02/whats-rack/) - A Quick Introduction to Rack .
 * [A Quick Note on Rack](http://www.ralphonrails.com/rack/2015/07/05/a-quick-note-on-rack.html)   
 * [Concisely about Rack applications](http://zaiste.net/2012/08/concisely_about_rack_applications/)
 * [Exploring Rack](http://code.tutsplus.com/tutorials/exploring-rack--net-32976)
@@ -40,11 +39,11 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Rack middleware](http://albertogrespan.com/blog/rack-middleware/) - Create two simple middlewares and glue it all together using `Rack::Builder`
 * [What is Rack, please?](http://southdesign.de/blog/rack.html)
 * [Rack from the ground up](https://thisdata.com/blog/rack-from-the-ground-up/)
-* [Creating Static Sites in Ruby with Rack](https://devcenter.heroku.com/articles/static-sites-ruby) - and deploy to Heroku.
+* [Creating Static Sites in Ruby with Rack](https://devcenter.heroku.com/articles/static-sites-ruby) - And deploy to Heroku.
 * [Writing a Small DSL Using Rack](http://nick-aschenbach.github.io/blog/2015/02/21/a-small-dsl-rack-app/)
-* [A simple Ruby Rack router](https://erikeldridge.wordpress.com/2010/02/21/simple-ruby-rack-router/) - a simple router in 17 lines of code
+* [A simple Ruby Rack router](https://erikeldridge.wordpress.com/2010/02/21/simple-ruby-rack-router/) - A simple router in 17 lines of code.
 * [Understanding Rack Builder](http://ixti.net/development/ruby/2011/09/03/understanding-rack-builder.html)
-* [Getting Started with Rack](https://gist.github.com/markbates/4240848) - use Rack::Builder to create a simple framework that
+* [Getting Started with Rack](https://gist.github.com/markbates/4240848) - Use Rack::Builder to create a simple framework that
   handles HTTP GET requests.
 * [Understanding Rack Apps and Middleware](https://blog.engineyard.com/2015/understanding-rack-apps-and-middleware)
 * [Make Your Own Rack Server](http://www.blrice.net/blog/2015/05/31/make-your-own-rack-server/)
@@ -68,8 +67,8 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Let's Build a Sinatra (2015)](https://robots.thoughtbot.com/lets-build-a-sinatra)    
 * [EBook: Build Your Own Sinatra by K-2052 (2015)](http://buildyourownsinatra.com/)   
 * [Book: Rebuilding Rails by Noah Gibbs (2013)](https://rebuilding-rails.com/)
-* [Class: Owing Rails by Marc-André Cournoyer](http://owningrails.com/) - Understand the inner working of Rails by building a mini-version of Rails, from scratch
-  * [patterns](https://github.com/owningrails/patterns) - Rails-like framework built during the Owning Rails Masterclass to explain the design patterns behind Rails 
+* [Class: Owing Rails by Marc-André Cournoyer](http://owningrails.com/) - Understand the inner working of Rails by building a mini-version of Rails, from scratch.
+  * [patterns](https://github.com/owningrails/patterns) - Rails-like framework built during the Owning Rails Masterclass to explain the design patterns behind Rails. 
 
 ## Presentations
 
@@ -82,11 +81,11 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Building Web Apps with Rack and Sinatra by Tom Black](https://speakerdeck.com/blacktm/building-web-apps-with-rack-and-sinatra)
 * [Sinatra and friends by Jiang Wu](http://www.slideshare.net/jiang.wu/sinatra-and-friends)
 * [Building Web Services (HTTP APIs) with Ruby and Sinatra](http://slideshow-s9.github.io/demos/sinatra_http_api2.html)
-* [Ruby on Rack Small Talk by Meagan Waller](https://speakerdeck.com/meaganewaller/ruby-on-rack-small-talk) - builds an example that
-  implements tiny MVC and a simple router. The example is available on [GitHub](https://github.com/meaganewaller/ruby-on-rack-example) 
+* [Ruby on Rack Small Talk by Meagan Waller](https://speakerdeck.com/meaganewaller/ruby-on-rack-small-talk) - Builds an example that
+  implements tiny MVC and a simple router. The example is available on [GitHub](https://github.com/meaganewaller/ruby-on-rack-example). 
 * [Rack: A Framework to roll your own by Nishant Modak](https://speakerdeck.com/nishantmodak/rack-a-framework-to-roll-your-own)
-* [Ruby MVC from scratch with Rack](https://speakerdeck.com/donschado/ruby-mvc-from-scratch-with-rack) - WOW! The example code is 
-  available on the GitHub repo [Frack-MVC](https://github.com/DonSchado/Frack-MVC)
+* [Ruby MVC from scratch with Rack](https://speakerdeck.com/donschado/ruby-mvc-from-scratch-with-rack) - The example code is 
+  available on the GitHub repo [Frack-MVC](https://github.com/DonSchado/Frack-MVC).
 * [Building web framework with Rack](http://www.slideshare.net/sickill/building-web-framework-with-rack)  
 * [Constructing Web APIs with Rack, Sinatra and MongoDB by Oisin Hurley](http://www.slideshare.net/oisin/constructing-web-apis-with-rack-sinatra-and-mongodb)
 * [Streaming APIs with Ruby by Jerry Cheung](https://speakerdeck.com/jch/streaming-apis-with-ruby)
@@ -94,7 +93,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [High Performance Rails (long edition) by Issei Naruta](https://speakerdeck.com/mirakui/high-performance-rails-long-edition) - Rails 
   Performance tuning and how to do profiling and caching.
 * [A Rails App in a Single Rackup File by Ryan Alyea](http://rofish.net/rails_single_file.pdf)  
-* [Rack - rolling your own, tiny like, web thingoes by Ryan Allen](http://yeahnah.org/files/rack-presentation-oct-07.pdf) - talks about concurrency. 
+* [Rack - rolling your own, tiny like, web thingoes by Ryan Allen](http://yeahnah.org/files/rack-presentation-oct-07.pdf) - Talks about concurrency. 
 
 ## Videos
 
@@ -109,7 +108,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Railscasts Pro #247 Offline Apps Part 1](http://railscasts.com/episodes/247-offline-apps-part-1)
 * [Railscasts Pro #248 Offline Apps Part 1](http://railscasts.com/episodes/248-offline-apps-part-2)
 * [Railscasts --- #260 Messaging with Faye](http://railscasts.com/episodes/260-messaging-with-faye)
-* [Railscasts --- #271 Resque](http://railscasts.com/episodes/271-resque) - `Rack::Auth::Basic` is used in this Episode
+* [Railscasts --- #271 Resque](http://railscasts.com/episodes/271-resque) - `Rack::Auth::Basic` is used in this Episode.
 * [Railscasts --- #272 Markdown with Redcarpet](http://railscasts.com/episodes/272-markdown-with-redcarpet)
 * [Railscasts Pro #294 Playing with PJAX](http://railscasts.com/episodes/294-playing-with-pjax)
 * [Railscasts Pro #305 Authentication with Warden](http://railscasts.com/episodes/305-authentication-with-warden)
@@ -137,10 +136,10 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Code School - Scaling Rails Applications: Rack & Metal (Episod #13)](https://www.youtube.com/watch?v=P0aOYjoH594)
 * [Rack Middleware as a General Purpose Abstraction by Mitchell Hashimoto](https://www.youtube.com/watch?v=i6pyhq3ZvyI)
   * the slide is available on [speakerdeck](https://speakerdeck.com/mitchellh/middleware-a-general-purpose-abstraction).
-  * [Generalized middleware implementation for Ruby by Mitchell Hashimoto](https://github.com/mitchellh/middleware) - ~ 130 LOC
+  * [Generalized middleware implementation for Ruby by Mitchell Hashimoto](https://github.com/mitchellh/middleware) - ~ 130 LOC.
 * [Faking Sinatra with Rack and Middleware by Charles Wood](https://www.youtube.com/watch?v=uH4H5GQOSqQ)
 * [Rails Conf 2013 You've got a Sinatra on your Rails by José Valim](https://www.youtube.com/watch?v=TslkdT3PfKc) - Great look 
-  at how Rails uses Rack internally
+  at how Rails uses Rack internally.
 * [RailsConf 2014 - Rack::Attack: Protect your app with this one weird gem! byAaron Suggs](https://www.youtube.com/watch?v=m1UwxsZD6sw)
   * the slide is available on [speakerdeck](https://speakerdeck.com/ktheory/rack-attack-protect-your-app-with-this-one-weird-gem)    
 
@@ -152,21 +151,21 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
   server, a proxy server, and a virtual-host server. It is now part of Ruby standard library for Ruby 1.9.3.
 * FCGI
 * [CGI](https://github.com/ruby/ruby/tree/trunk/lib/cgi) - The Common Gateway Interface (CGI) is a simple protocol for passing 
-  an HTTP request from a web server to a standalone program, and returning the output to the web browser
+  an HTTP request from a web server to a standalone program, and returning the output to the web browser.
 * SCGI
 * [Thin](https://github.com/macournoyer/thin/) - Tiny, fast & funny HTTP server. Glues together 3 of the best Ruby libraries: 
-  The `Mongrel` parser, `Event Machine` network I/O library and `Rack`, a minimal interface between webservers and Ruby frameworks
+  The `Mongrel` parser, `Event Machine` network I/O library and `Rack`, a minimal interface between webservers and Ruby frameworks.
 * [LiteSpeed](https://www.litespeedtech.com/products/litespeed-web-server/overview) - LiteSpeed Web Server (LSWS) is a high-performance
   Apache drop-in replacement, a commercial web server.
 
 > These web servers include Rack handlers in their distributions:
 
 * [Rouge](https://github.com/guilleiguaran/rogue) - minimal and fast HTTP 1.1 server for Rack applications, powered by `EventMachine`, Ryan Dahl's 
-  `http-parser(https://github.com/joyent/http-parser)` and `Rack::Builder`
+  `http-parser(https://github.com/joyent/http-parser)` and `Rack::Builder`.
 * [Ebb](https://github.com/gnosek/ebb) - A small and fast web server specifically for hosting dynamic web applications.
-* [Fuzed](https://github.com/KirinDave/fuzed-old) - An integrated replacement for Mongrel+Revproxy systems in erlang 
-* [GlassFish v3](https://java.net/projects/glassfish/sources/svn/show/trunk/main) - an open-source application server project 
-  started by Sun Microsystems for the Java EE platform and now sponsored by Oracle Corporation
+* [Fuzed](https://github.com/KirinDave/fuzed-old) - An integrated replacement for Mongrel+Revproxy systems in erlang. 
+* [GlassFish v3](https://java.net/projects/glassfish/sources/svn/show/trunk/main) - An open-source application server project 
+  started by Sun Microsystems for the Java EE platform and now sponsored by Oracle Corporation.
 * [Phusion Passenger](https://github.com/phusion/passenger) - A web server and application server, designed to be fast, robust 
   and lightweight. Supports Ruby, Python, Node.js and Meteor, and is being used by high-profile companies such as Apple, 
   Pixar, New York Times, AirBnB, Juniper etc as well as over 350.000 websites. Phusion Passenger 5 (codename "Raptor")  has 
@@ -184,47 +183,47 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
     that dramatically improves the concurrency of your web application. 
 * [Unicorn](http://bogomips.org/unicorn.git) - Rack HTTP server for fast clients and Unix. Mostly wriiten in pure Ruby. Provides `unicorn` - 
   a rackup-like command to launch the Unicorn HTTP server (it uses Rack::Builder DSL) and `unicorn_rails` - a script/server-like command 
-  to launch the Unicorn HTTP server
-* [unixrack](https://github.com/brightroll/unixrack) - A ruby RACK webserver only for unix using the old unix style. (~500 LOC)
+  to launch the Unicorn HTTP server.
+* [unixrack](https://github.com/brightroll/unixrack) - A ruby RACK webserver only for unix using the old unix style. (~500 LOC).
 * [uWSGI](https://github.com/unbit/uwsgi) - uWSGI application server container written in Python. Supports Python (WSGI), 
   Ruby (Rack), Perl (PSGI), Lua (WSAPI), PHP (CGI), JVM (JWSGI), Mono (ASP.NET plugin), GO (GCCGO), CGI Scripts.
-* [yahns](http://yahns.yhbt.net/) - sleepy, multi-threaded, non-blocking application server for Ruby
+* [yahns](http://yahns.yhbt.net/) - Sleepy, multi-threaded, non-blocking application server for Ruby.
 * [YARS](https://github.com/ianks/yars) - A server for your (Rack) apps.  
-* [Goliath](https://github.com/postrank-labs/goliath) - a non-blocking Ruby web server framework. Bare metal performance, 
+* [Goliath](https://github.com/postrank-labs/goliath) - A non-blocking Ruby web server framework. Bare metal performance, 
   Rack API and middleware support, simple configuration, fully asynchronous processing, and readable and maintainable code.
   The framework is powered by an EventMachine reactor, a high-performance HTTP parser and Ruby 1.9+ runtime. 
 * [Mongrel](https://github.com/mongrel/mongrel) - A HTTP library and web server written in Ruby. What makes Mongrel so fast is the 
-  careful use of an Ragel extension to provide fast, accurate HTTP 1.1 protocol parsing. (deprecated)
+  careful use of an Ragel extension to provide fast, accurate HTTP 1.1 protocol parsing.
 * [Mongrel2](https://github.com/mongrel2/mongrel2) - An application, language, and network architecture agnostic web server 
   that focuses on web applications using modern browser technologies. Written in C.  
-* [Pow](https://github.com/basecamp/pow) - zero-config Rack server for Mac OS X. Have it serving your apps locally in under 
+* [Pow](https://github.com/basecamp/pow) - Zero-config Rack server for Mac OS X. Have it serving your apps locally in under 
   a minute. A Linux fork is availble [here](https://github.com/ysbaddaden/pow).
-* [nack](https://github.com/josh/nack) - nack is a Rack server built on top of the Node.js HTTP server  
-* [Gorack](https://github.com/gmarik/gorack) - a Go backed frontend webserver for Ruby's Rack applications, inspired by Node's 
-  [nack](http://github.com/josh/nack)      
-* [Mizuno](https://github.com/matadon/mizuno) - Jetty-powered running shoes for JRuby/Rack. A Rack server for JRuby.  It uses the embeddable Jetty 
-  Java servlet container. Mizuno also supports asynchronous request handling, via the Java Servlet 3.0 asynchronous processing mechanism
+* [nack](https://github.com/josh/nack) - A Rack server built on top of the Node.js HTTP server.  
+* [Gorack](https://github.com/gmarik/gorack) - A Go backed frontend webserver for Ruby's Rack applications, inspired by Node's 
+  [nack](http://github.com/josh/nack).      
+* [Mizuno](https://github.com/matadon/mizuno) - Jetty-powered running shoes for JRuby/Rack. A Rack server for JRuby. It uses the embeddable Jetty 
+  Java servlet container. Mizuno also supports asynchronous request handling, via the Java Servlet 3.0 asynchronous processing mechanism.
 * [TorqueBox](https://github.com/torquebox/torquebox) - Ruby Web & Application Server built on JBoss and JRuby. 
   TorqueBox goes beyond providing web-centric services (supporting Rails, Rack, Sinatra, etc), to also expose other 
   enterprise-grade services to Ruby applications.
-* [H2O](https://h2o.examp1e.net/) - an optimized HTTP/1, HTTP/2 server. H2O supports Rack interface for MRuby.   
+* [H2O](https://h2o.examp1e.net/) - An optimized HTTP/1, HTTP/2 server. H2O supports Rack interface for MRuby.   
   
 > Miscellaneous
 
 * [Grack](https://github.com/schacon/grack) - GIt Smart HTTP Server Rack Implementation. This project aims to replace the builtin git-http-backend 
   CGI handler distributed with C Git with a Rack application. This reason for doing this is to allow far more webservers to be able to handle Git smart 
   http requests. Grack inspired [git_http_backend.py](https://github.com/dvdotsenko/git_http_backend.py) and 
-  [Git Web Access (ASP.NET/IIS)](https://github.com/yysun/Git-Web-Access)  
+  [Git Web Access (ASP.NET/IIS)](https://github.com/yysun/Git-Web-Access).  
 
 ## Frameworks
 
-* [Rum](https://github.com/chneukirchen/rum) - a gRand Unified Mapper for Rack by Christian Neukirchen. Rum apps use a small DSL 
+* [Rum](https://github.com/chneukirchen/rum) - A gRand Unified Mapper for Rack by Christian Neukirchen. Rum apps use a small DSL 
   to set up the mappings. (~120 LOC)
 * [Frack-MVC](https://github.com/DonSchado/Frack-MVC) - A small example implementation of how to build a simple MVC style application from 
-  scratch. Check out the commit history to see how I implemented it step-by-step. This is the example code for the slide 
+  scratch. Check out the commit history to see how I implemented it step-by-step. This is the example code for the slide: 
   [Ruby MVC from scratch with Rack](https://speakerdeck.com/donschado/ruby-mvc-from-scratch-with-rack) 
 * [Hobbit](https://github.com/patriciomacadden/hobbit) - A minimalistic microframework built on top of Rack (thanks to `Rack::Builder`).
-   Hobbit is a DSL inspired by Sinatra. (~ 150 LOC)
+   Hobbit is a DSL inspired by Sinatra. (~ 150 LOC).
    
     * [hobbit-contrib](https://github.com/patriciomacadden/hobbit-contrib) - Contributed Hobbit extensions. For examples:
     `Hobbit::Environment`, `Hobbit::ErrorHandling`, `Hobbit::Filter`, `Hobbit::Mote` - redner using [mote](https://github.com/soveran/mote), 
@@ -232,21 +231,21 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 
 * [mruby-hibari](https://github.com/kentaro/mruby-hibari) - A Web application framework for Web servers that support [mruby](https://github.com/mruby/mruby)
    and Rack-based API. `mruby-hibari` currently supports the Web servers: [ngx_mruby](http://ngx.mruby.org/)-enabled Nginx, 
-   [mod_mruby](http://mod.mruby.org/)-enabled Apache and [h2o](https://h2o.examp1e.net/)
+   [mod_mruby](http://mod.mruby.org/)-enabled Apache and [h2o](https://h2o.examp1e.net/).
 * [Cuba](https://github.com/soveran/cuba) - [Rum](https://github.com/chneukirchen/rum) based microframework for web development. 
-  Integrates many templates via Tilt. Incredibly small, less than 200 lines of code
+  Integrates many templates via Tilt. Incredibly small, less than 200 lines of code.
   
   * [The Guide to Cuba](http://theguidetocuba.io/) - following this small book to build a Twitter clone called Frogger (work in progress).
   
-* [Nancy](https://github.com/guilleiguaran/nancy) - Minimal Ruby microframework for web development inspired in `Sinatra` and `Cuba` (~150 LOC)
+* [Nancy](https://github.com/guilleiguaran/nancy) - Minimal Ruby microframework for web development inspired in `Sinatra` and `Cuba` (~150 LOC).
 * [Rambutan](https://github.com/guilleiguaran/rambutan) - Ruby web microframework with Rails-ish controllers and routes.
 * [NYNY](https://github.com/alisnic/nyny) - A (ridiculously) small and powerful web framework (~ 300 LOC). NYNY uses 
   [Journey](https://github.com/rails/journey) for routing(Rail's router). A NYNY app is a Rack middleware,  it can be used inside 
-  Sinatra, Rails, or any other Rack-based app
-* [Eldr](https://github.com/eldr-rb/eldr) - a lightweight, simple, modular and above all, clear framework without all the magic. (~500 LOC).
+  Sinatra, Rails, or any other Rack-based app.
+* [Eldr](https://github.com/eldr-rb/eldr) - A lightweight, simple, modular and above all, clear framework without all the magic. (~500 LOC).
   Eldr uses [Mustermann](https://github.com/rkh/mustermann) to build its Router.    
 * [rack-server-pages](https://github.com/migrs/rack-server-pages) - Rack middleware and application for serving dynamic pages in very 
-  simple way. There are no controllers or models, just only views like a jsp, asp and php!
+  simple way. There are no controllers or models, just only views like a jsp, asp and php.
 * [Serve](https://github.com/jlong/serve) - A small Rack-based web server that makes it easy to serve HTML, ERB, Haml, or a variety of 
   template languages from any directory.  Serve is meant to be a lightweight version of the Views part of the Rails MVC. 
   Serve has full support for Rails-style partials and layouts.
@@ -260,47 +259,47 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
   * [RESTRack-Splitter](http://github.com/stjohncj/RESTRack-Splitter) - A library for interacting with RESTful web services 
     with automatic distribution across multiple nodes of a cluster.  
    
-* [jellyfish](https://github.com/godfat/jellyfish) - Pico web framework for building API-centric web applications (~ 250 LOC)  
-* [junior](https://github.com/eddanger/junior) - An MVC Web Framework
-* [Kenji](https://github.com/kballenegger/Kenji) - A lightweight backend framework for Ruby
+* [jellyfish](https://github.com/godfat/jellyfish) - Pico web framework for building API-centric web applications (~ 250 LOC).  
+* [junior](https://github.com/eddanger/junior) - An MVC Web Framework.
+* [Kenji](https://github.com/kballenegger/Kenji) - A lightweight backend framework for Ruby.
 * [cramp](https://github.com/lifo/cramp) - A fully asynchronous realtime web application framework in Ruby. It is built on top of 
-  EventMachine
+  EventMachine.
 * [Brooklyn](https://github.com/luislavena/brooklyn) - Small web tool on top of Rack. No documentation.
-* [Coset](https://github.com/chneukirchen/coset-mirror) -A framework specifically for implementing RESTful Rack applications by Christian Neukirchen.
+* [Coset](https://github.com/chneukirchen/coset-mirror) - A framework specifically for implementing RESTful Rack applications by Christian Neukirchen.
   Coset is introduced in the paper [`Introducing Rack`](http://chneukirchen.org/talks/euruko-2007/neukirchen07introducingrack.pdf).
-* [Rango](https://github.com/botanicus/rango) - An ultralightweight, ultracustomizable, ultracool web framework inspired by Django  
+* [Rango](https://github.com/botanicus/rango) - An ultralightweight, ultracustomizable, ultracool web framework inspired by Django.  
 * [Pancake](https://github.com/hassox/pancake) - Construct Rack stacks as mixins. Almost all key aspects of web frameworks are 
   covered in Pancake as mixins to help you create your own re-usable Rack Stacks without worrying about the really low level 
   plumbing.
 * [Grape](https://github.com/intridea/grape) - An opinionated micro-framework for creating REST-like APIs in Ruby.
-* [Napa](https://github.com/bellycard/napa) - simple framework for building Rack based APIs using Grape, Roar and ActiveRecord.  
+* [Napa](https://github.com/bellycard/napa) - Simple framework for building Rack based APIs using Grape, Roar and ActiveRecord.  
   It's designed to make it easy to quickly create and deploy new API services by providing generators, middlewares and a console 
-   similar to what you would expect from a Rails app 
-* [Crep](https://github.com/crepe/crepe) - a lightweight API framework designed to help you write clean, fast web services in Ruby. 
+   similar to what you would expect from a Rails app. 
+* [Crep](https://github.com/crepe/crepe) - A lightweight API framework designed to help you write clean, fast web services in Ruby. 
   With an elegant and intuitive DSL inspired by RSpec, and with a nod to Grape, Crepe makes API design simple.
 * [Lotus](https://github.com/lotus)- A complete MVC web framework for Ruby.
-* [Camping](https://github.com/camping/camping) - A web framework which consistently stays at less than 4kB of code
-* [Espresso](https://github.com/espresso/espresso) - Scalable Web Framework aimed at Speed and Simplicity. (deprecated)
+* [Camping](https://github.com/camping/camping) - A web framework which consistently stays at less than 4kB of code.
+* [Espresso](https://github.com/espresso/espresso) - Scalable Web Framework aimed at Speed and Simplicity.
 * [Halcyon](https://github.com/mtodd/halcyon) - A JSON Web Application Framework for developing lightweight applications
-  interfaced via JSON-encoded HTTP requests. (deprecated)
+  interfaced via JSON-encoded HTTP requests.
 * [Wee](https://github.com/mneumann/wee) - A light-weight, very high-level and modern web-framework that makes **W**eb **e**ngineering **e**asy  
 * [Mack](https://github.com/markbates/mack) - A Ruby web application framework. It takes the best ideas from several frameworks, 
-  including Rails, Merb, and Ramaze  
-* [Merb](https://github.com/merb/merb) - A web development framework for fast, simple, and powerful development
+  including Rails, Merb, and Ramaze.
+* [Merb](https://github.com/merb/merb) - A web development framework for fast, simple, and powerful development.
 * [Hanami](https://github.com/hanami/hanami) - a Ruby MVC web framework comprised of many micro-libraries. 
   It has a simple, stable API, a minimal DSL.
 
-  * [awesome-hanami](https://github.com/davydovanton/awesome-hanami) - A collection of awesome Hanami Gems and projects
+  * [awesome-hanami](https://github.com/davydovanton/awesome-hanami) - A collection of awesome Hanami Gems and projects.
 
-* [Ramaze](https://github.com/ramaze/ramaze) - A simple, light and modular open-source web application framework written in Ruby
+* [Ramaze](https://github.com/ramaze/ramaze) - A simple, light and modular open-source web application framework written in Ruby.
 
-  * [ramaze-book](https://github.com/Ramaze/ramaze-book) - The official book for the Ramaze web framework. No longer maintained
+  * [ramaze-book](https://github.com/Ramaze/ramaze-book) - The official book for the Ramaze web framework.
   
 * [Sin](https://github.com/raggi/sin) - A multi-app web-app DSL derived from Sinatra, riding on rack.
 * [Gin](https://github.com/jcasts/gin) - A small Ruby web framework, built on Rack, which borrows from Sinatra expressiveness, 
-  and targets larger applications
+  and targets larger applications.
 * [Pakyow](https://github.com/pakyow/pakyow/) - An open-source framework for the modern web. Build web-based apps faster with 
-  a view-first development process that's friendly to everyone
+  a view-first development process that's friendly to everyone.
 * [Scorched](https://github.com/Wardrop/Scorched) - Light-weight, DRY as a desert, web framework for Ruby. Simliar to Sinatra. 
   Scorched is a true evolutionary enhancement of Sinatra, with more power, focus, and less clutter.
 * [Rack::App](https://github.com/rack-app/rack-app) - Bare bone minimalistic (masochistic) pico framework for building rack apps.
@@ -309,16 +308,16 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
   in Ruby with minimal effort. Sinatra is not a framework, nor a MVC, it's a wrapper around Rack.
   
   * [sinatra-contrib](https://github.com/sinatra/sinatra-contrib) - Collection of common Sinatra extensions.
-  * [sinatra-receipes](https://github.com/sinatra/sinatra-recipes) - Community contributed recipes and techniques for the Sinatra Web Framework
+  * [sinatra-receipes](https://github.com/sinatra/sinatra-recipes) - Community contributed recipes and techniques for the Sinatra Web Framework.
   * [sinatra-book](https://github.com/sinatra/sinatra-book) - A cookbook full of excellent tutorials and recipes for developing Sinatra web applications.
   * [Frameworks inspired by Sinatra on Wikipedia](https://en.wikipedia.org/w/index.php?title=Sinatra_(software)&oldid=690374847) - e.g.: 
     Ruby (Padrino, Nancy), PHP (Slim, deano), JavaScript (Express), CoffeeScript (Zappa), Python (Flask), Go (Martini, Goji), Scala (Finatra, Scaltra),
     Java (Spark), Haskell (Scotty), Bash (sh.inatra), Lua (Orbit, Mercury), Perl (Dancer)
 
-* [padrino](https://github.com/padrino/padrino-framework) - Padrino is a full-stack ruby framework built upon Sinatra
+* [padrino](https://github.com/padrino/padrino-framework) - Padrino is a full-stack ruby framework built upon Sinatra.
 
-  * [padrino-contrib](https://github.com/padrino/padrino-contrib) - Contributed plugins and utilities for Padrino Framework
-  * [padrino-recipes](https://github.com/padrino/padrino-recipes) - A collection of padrino templates and plugins
+  * [padrino-contrib](https://github.com/padrino/padrino-contrib) - Contributed plugins and utilities for Padrino Framework.
+  * [padrino-recipes](https://github.com/padrino/padrino-recipes) - A collection of padrino templates and plugins.
 
 * [Rails](https://github.com/rails/rails) - Ruby on Rails, is a MVC web application framework written in Ruby.
 
@@ -334,13 +333,13 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 
 * [Rack built-in middlewares](https://github.com/rack/rack):
 
-    * `Rack::Builder` - implements a small DSL to iteratively construct Rack applications
+    * `Rack::Builder` - Implements a small DSL to iteratively construct Rack applications.
     * `Rack::BodyProxy` - 
-    * `Rack::Cascade` - tries a request on several apps, and returns the first response that is not 404 or 405 (or in a list of 
+    * `Rack::Cascade` - Tries a request on several apps, and returns the first response that is not 404 or 405 (or in a list of 
       configurable status codes).
     * `Rack::Chunked` - Middleware that applies chunked transfer encoding to response bodies when the response does not include 
       a Content-Length header.          
-    * `Rack::CommonLogger` - for creating Apache-style logfiles.
+    * `Rack::CommonLogger` - For creating Apache-style logfiles.
     * `Rack::ConditionalGet` - Middleware that enables conditional GET using If-None-Match and If-Modified-Since. 
       The application should set either or both of the Last-Modified or Etag response headers according to RFC 2616
     * `Rack::Config` - modifies the environment using the block given during initialization
