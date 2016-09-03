@@ -19,6 +19,7 @@ awesome-rack
 ## General
 
 * [Rack](http://rack.github.io/) - Ruby Rack Official website
+* [Rack on GitHub](https://github.com/rack/rack)
 * [rack-contrib](https://github.com/rack/rack-contrib) - Contributed Rack Middleware and Utilities
 * [Rack Spec](http://www.rubydoc.info/github/rack/rack/file/SPEC) - Rack Interface Specification
 * [Rack Wiki](https://github.com/rack/rack/wiki) - has a list of tutorals, presentations and middlewares.
