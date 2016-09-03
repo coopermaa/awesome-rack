@@ -946,3 +946,9 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
   and web applications. The goal of the OWIN interface is to decouple server and application, encourage the development
   of simple modules for .NET web development, and, by being an open standard, stimulate the open source ecosystem of 
   .NET web development tools. [Katana](https://katanaproject.codeplex.com/) is the implementation of OWIN components.
+
+## License
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [coopermaa](http://coopermaa2nd.blogspot.tw/) has waived all copyright and related or neighboring rights to this work.
