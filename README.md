@@ -55,6 +55,7 @@ awesome-rack
 * [Asynchronous responses in Rack](http://polycrystal.org/posts/2012-04-14-async-rack.html)
 * [Building Streaming REST APIs with Ruby](http://www.intridea.com/blog/2012/5/24/building-streaming-rest-apis-with-ruby)
 * [Rack Developer's Notebook by Bala Paranj](http://files.meetup.com/437842/RackDevelopersNotebook.pdf)
+* [32 Rack Resources to Get You Started](http://jasonseifer.com/2009/04/08/32-rack-resources-to-get-you-started)
 
 > Testing Rack Apps
 
