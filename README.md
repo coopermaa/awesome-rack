@@ -632,7 +632,9 @@ awesome-rack
   [Minimal Sinatra GitHub Application](https://github.com/schacon/ghapp.sinatra.min) for a demostration.   
 * [Rack::FacebookConnect](https://github.com/intridea/rack_facebook_connect) - A Rack middleware for Facebook Connect authentication.
 * [Rack::Cerberus](https://github.com/mig-hub/cerberus) -  Rack middleware for form-based authentication. It works roughly like Basic HTTP authentication 
-  except that you can use options in order to style the authentication page.  
+  except that you can use options in order to style the authentication page.
+* [hancock](https://github.com/atmos/hancock/) - An OpenID based Single Sign On server with a simple API, written in Sinatra   
+  * [hancock-click](https://github.com/atmos/hancock-client) - A sinatra app and rack middleware piece for the hancock SSO server
 
 > Middlwares for Asset Pipeline
 
