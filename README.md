@@ -643,6 +643,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [ntlm-sso](https://github.com/rekado/ntlm-sso) - Rack authentication module for single sign on via NTLM. Note this is not a middleware.
 * [CASino](https://github.com/rbCAS/CASino) - Ruby-based Single Sign-On solution supporting the CAS standard. Note this is not a middleware.    
   * [CASinoApp](https://github.com/rbCAS/CASinoApp) - Ready to use CAS server based on CASino Rails Engine.
+* [OmniAuth](https://github.com/omniauth/omniauth) - A flexible authentication system utilizing Rack middleware.
 
 > Middlwares for Asset Pipeline
 
