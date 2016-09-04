@@ -301,6 +301,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
   * [ramaze-book](https://github.com/Ramaze/ramaze-book) - The official book for the Ramaze web framework.
   
 * [Sin](https://github.com/raggi/sin) - A multi-app web-app DSL derived from Sinatra, riding on rack.
+  Sin is a rebuild of sinatra, splitting up the classes into files and going for a reusable application class.
 * [Gin](https://github.com/jcasts/gin) - A small Ruby web framework, built on Rack, which borrows from Sinatra expressiveness, 
   and targets larger applications.
 * [Pakyow](https://github.com/pakyow/pakyow/) - An open-source framework for the modern web. Build web-based apps faster with 
