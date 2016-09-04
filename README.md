@@ -272,6 +272,9 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
   covered in Pancake as mixins to help you create your own re-usable Rack Stacks without worrying about the really low level 
   plumbing.
 * [Grape](https://github.com/intridea/grape) - An opinionated micro-framework for creating REST-like APIs in Ruby.
+
+  * [Gris](https://github.com/artsy/gris) - A framework for building hypermedia API services using Grape, Roar and ActiveRecord.
+
 * [Napa](https://github.com/bellycard/napa) - Simple framework for building Rack based APIs using Grape, Roar and ActiveRecord.  
   It's designed to make it easy to quickly create and deploy new API services by providing generators, middlewares and a console 
    similar to what you would expect from a Rails app. 
