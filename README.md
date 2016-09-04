@@ -798,7 +798,8 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Rack::Geoip](https://github.com/ckraybill/rack-geoip) - A rack middleware component that handles simple geoip lookups.
 * [Rack::GeoIPCountry](https://github.com/tma/rack-geoipcountry) - uses the geoip gem and the GeoIP database to lookup the country of a request by its IP address
 * [Rack::CanonicalHost](https://github.com/tylerhunt/rack-canonical-host) - https://github.com/tylerhunt/rack-canonical-host  
-   
+* [committee](https://github.com/interagent/committee) - A collection of Rack middleware to support JSON Schema. 
+
 ## Helpers and Tools
 
 * From [Rack built-in middlewares](https://github.com/rack/rack):
