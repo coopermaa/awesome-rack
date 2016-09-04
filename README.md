@@ -224,10 +224,12 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
   [Ruby MVC from scratch with Rack](https://speakerdeck.com/donschado/ruby-mvc-from-scratch-with-rack) 
 * [Hobbit](https://github.com/patriciomacadden/hobbit) - A minimalistic microframework built on top of Rack (thanks to `Rack::Builder`).
    Hobbit is a DSL inspired by Sinatra. (~ 150 LOC).
-   
-    * [hobbit-contrib](https://github.com/patriciomacadden/hobbit-contrib) - Contributed Hobbit extensions. For examples:
+
+  * [hobbit-contrib](https://github.com/patriciomacadden/hobbit-contrib) - Contributed Hobbit extensions. For examples:
     `Hobbit::Environment`, `Hobbit::ErrorHandling`, `Hobbit::Filter`, `Hobbit::Mote` - render using [mote](https://github.com/soveran/mote), 
     `Hobbit::Render`, `Hobbit::Session`
+  * [hat](https://github.com/patriciomacadden/hat/) - Hobby Application Template. Combinded with i18n, rack-protection, sprockets, tilt, 
+    better_erros, rack-test, minitest and so on.
 
 * [mruby-hibari](https://github.com/kentaro/mruby-hibari) - A Web application framework for Web servers that support [mruby](https://github.com/mruby/mruby)
    and Rack-based API. `mruby-hibari` currently supports the Web servers: [ngx_mruby](http://ngx.mruby.org/)-enabled Nginx, 
