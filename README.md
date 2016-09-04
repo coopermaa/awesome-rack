@@ -226,7 +226,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
    Hobbit is a DSL inspired by Sinatra. (~ 150 LOC).
    
     * [hobbit-contrib](https://github.com/patriciomacadden/hobbit-contrib) - Contributed Hobbit extensions. For examples:
-    `Hobbit::Environment`, `Hobbit::ErrorHandling`, `Hobbit::Filter`, `Hobbit::Mote` - redner using [mote](https://github.com/soveran/mote), 
+    `Hobbit::Environment`, `Hobbit::ErrorHandling`, `Hobbit::Filter`, `Hobbit::Mote` - render using [mote](https://github.com/soveran/mote), 
     `Hobbit::Render`, `Hobbit::Session`
 
 * [mruby-hibari](https://github.com/kentaro/mruby-hibari) - A Web application framework for Web servers that support [mruby](https://github.com/mruby/mruby)
