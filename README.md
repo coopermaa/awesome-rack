@@ -209,7 +209,8 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
   TorqueBox goes beyond providing web-centric services (supporting Rails, Rack, Sinatra, etc), to also expose other 
   enterprise-grade services to Ruby applications.
 * [H2O](https://h2o.examp1e.net/) - An optimized HTTP/1, HTTP/2 server. H2O supports Rack interface for MRuby.   
-  
+* [trinidad](https://github.com/trinidad/trinidad) - Run Rails or Rack applications within an embedded Apache Tomcat container.   
+
 > Miscellaneous
 
 * [Grack](https://github.com/schacon/grack) - GIt Smart HTTP Server Rack Implementation. This project aims to replace the builtin git-http-backend 
