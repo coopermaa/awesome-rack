@@ -35,6 +35,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Concisely about Rack applications](http://zaiste.net/2012/08/concisely_about_rack_applications/)
 * [Exploring Rack](http://code.tutsplus.com/tutorials/exploring-rack--net-32976)
 * [Rack basics](http://albertogrespan.com/blog/rack-basics/) - Covers basic usage of Response, ERB template and the `rackup` tool.
+* [Rack Basics - A Rack Introduction](http://blog.crowdint.com/2010/11/17/rack-basics-a-rack-introduction.html)
 * [Rack Authentication Middleware](http://codefol.io/posts/Rack-Authentication-Middleware)
 * [Rack middleware](http://albertogrespan.com/blog/rack-middleware/) - Create two simple middlewares and glue it all together using `Rack::Builder`
 * [A Middleware Stack Without Rack](http://www.blrice.net/blog/2015/09/18/a-middleware-stack-without-rack/)
