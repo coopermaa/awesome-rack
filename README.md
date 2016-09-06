@@ -838,7 +838,8 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Split](https://github.com/splitrb/split) - Rack based ab testing framework designed to work with Rails, Sinatra or any other rack based app. 
   Split is heavily inspired by the Abingo and Vanity rails ab testing plugins and Resque in its use of Redis
 * [Rack::Scaffold](https://github.com/mattt/rack-scaffold) - Automatically generate RESTful CRUD services     
-  
+* [almost-rack](https://github.com/rkh/almost-rack/blob/meister/almost-rackup) - Rack in three lines of code.
+
 ## Miscellaneous
 
 > HTTP Clients
