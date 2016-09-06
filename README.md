@@ -764,7 +764,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Brochure](https://github.com/sstephenson/brochure) - Rack application for serving static sites with ERB templates 
   (or any of the many template languages supported by Tilt)
 * [Marley](https://github.com/karmi/marley) - A minimal blog engine without admin interface written in Sinatra framework. Use Rack::Auth::Basic to provide authentication.    
-* [rack-ssl](https://github.com/tobmatth/rack-ssl-enforcer) - Rack middleware to force SSL
+* [rack-ssl](https://github.com/chopmo/rack-ssl) - Rack middleware to force SSL
 * [rack-ssl-enforcer](https://github.com/tobmatth/rack-ssl-enforcer) - A simple Rack middleware to enforce ssl connections 
 * [rack-ssl-rails](https://github.com/jstorimer/rack-ssl-rails) - A simple interface to `Rack::SSL` for Rails. Provides a railtie 
   for use with rack-ssl
