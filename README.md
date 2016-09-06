@@ -839,6 +839,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
   Split is heavily inspired by the Abingo and Vanity rails ab testing plugins and Resque in its use of Redis
 * [Rack::Scaffold](https://github.com/mattt/rack-scaffold) - Automatically generate RESTful CRUD services     
 * [almost-rack](https://github.com/rkh/almost-rack/blob/meister/almost-rackup) - Rack in three lines of code.
+* [rack-graph](https://github.com/rkh/rack-graph) - Generate a tree displaying all your Rack middleware.
 
 ## Miscellaneous
 
