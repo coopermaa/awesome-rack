@@ -845,6 +845,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Rack::Scaffold](https://github.com/mattt/rack-scaffold) - Automatically generate RESTful CRUD services     
 * [almost-rack](https://github.com/rkh/almost-rack/blob/meister/almost-rackup) - Rack in three lines of code.
 * [rack-graph](https://github.com/rkh/rack-graph) - Generate a tree displaying all your Rack middleware.
+* [Apartment](https://github.com/influitive/apartment) - Database multi-tenancy for Rack (and Rails) applications.
 
 ## Miscellaneous
 
