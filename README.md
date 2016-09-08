@@ -840,6 +840,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Lookout::Rack::Test](https://github.com/lookout/lookout-rack-test) - RSpec and Cucumber test helpers.
 * [test-unit-capybara](https://github.com/test-unit/test-unit-capybara/) -  integration testing helper library for Rack applications, a Capybara 
   adapter for [test-unit](https://github.com/test-unit/test-unit) 
+* [rack_toolkit](RackToolkit) - A dynamic Rack server and helper methods to help testing Rack apps.
 * [Split](https://github.com/splitrb/split) - Rack based ab testing framework designed to work with Rails, Sinatra or any other rack based app. 
   Split is heavily inspired by the Abingo and Vanity rails ab testing plugins and Resque in its use of Redis
 * [Rack::Scaffold](https://github.com/mattt/rack-scaffold) - Automatically generate RESTful CRUD services     
