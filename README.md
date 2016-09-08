@@ -572,6 +572,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Rack Reverse Proxy](https://github.com/waterlink/rack-reverse-proxy) - This is a simple reverse proxy for Rack that 
   pretty heavily rips off Rack Forwarder.
 * [Rack::Rewrite](https://github.com/jtrupiano/rack-rewrite) - A rack middleware for defining and applying rewrite rules    
+* [Hanami::Router](https://github.com/hanami/router) - Rack compatible, lightweight and fast HTTP Router for Ruby and Hanami.
 
 > Middlewares for Session Management
 
