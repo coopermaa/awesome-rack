@@ -285,6 +285,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
    similar to what you would expect from a Rails app. 
 * [Crep](https://github.com/crepe/crepe) - A lightweight API framework designed to help you write clean, fast web services in Ruby. 
   With an elegant and intuitive DSL inspired by RSpec, and with a nod to Grape, Crepe makes API design simple.
+* [Praxis](https://github.com/rightscale/praxis) - A framework for both designing and implementing APIs.
 * [Lotus](https://github.com/lotus)- A complete MVC web framework for Ruby.
 * [Camping](https://github.com/camping/camping) - A web framework which consistently stays at less than 4kB of code.
 * [Espresso](https://github.com/espresso/espresso) - Scalable Web Framework aimed at Speed and Simplicity.
