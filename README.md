@@ -313,7 +313,9 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Scorched](https://github.com/Wardrop/Scorched) - Light-weight, DRY as a desert, web framework for Ruby. Simliar to Sinatra. 
   Scorched is a true evolutionary enhancement of Sinatra, with more power, focus, and less clutter.
 * [Rack::App](https://github.com/rack-app/rack-app) - Bare bone minimalistic (masochistic) pico framework for building rack apps.
-  Inspired by sinatra, grape and the pure use form of Rack.  
+  Inspired by sinatra, grape and the pure use form of Rack.
+* [Trailblazer](https://github.com/apotonick/trailblazer) - A high-level, modular architecture for Ruby 
+  framworks with domain and form objects, view models, twin decorators.    
 * [Sinatra](https://github.com/sinatra/sinatra) - Classy web-development dressed in a DSL for quickly creating web applications
   in Ruby with minimal effort. Sinatra is not a framework, nor a MVC, it's a wrapper around Rack.
   
