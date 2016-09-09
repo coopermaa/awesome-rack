@@ -941,6 +941,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
    
 * [Plug (Elixir)](https://github.com/elixir-lang/plug) - Plug is A specification for composable modules 
   between web applications, and it's also connection adapters for different web servers in the Erlang VM.
+  Plug is sinatra-like, and Elixir has a Rails-like framework called [Phoenix](http://www.phoenixframework.org/)
 
 * [Clack (Lisp)](https://github.com/fukamachi/clack/) - Clack is a web application environment for Common Lisp inspired by 
   Python's WSGI and Ruby's Rack.   
