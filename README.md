@@ -162,6 +162,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 
 > These web servers include Rack handlers in their distributions:
 
+* [net-http-server](https://github.com/postmodern/net-http-server) - A pure and small Ruby HTTP server.
 * [Rouge](https://github.com/guilleiguaran/rogue) - minimal and fast HTTP 1.1 server for Rack applications, powered by `EventMachine`, Ryan Dahl's 
   `http-parser(https://github.com/joyent/http-parser)` and `Rack::Builder`.
 * [Ebb](https://github.com/gnosek/ebb) - A small and fast web server specifically for hosting dynamic web applications.
