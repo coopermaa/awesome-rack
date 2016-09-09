@@ -939,6 +939,9 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
   in Ruby. By wrapping HTTP requests and responses it unifies the API for web servers, web frameworks, and software in between
    (the so-called middleware) into a single method call.
    
+* [Plug (Elixir)](https://github.com/elixir-lang/plug) - Plug is A specification for composable modules 
+  between web applications, and it's also connection adapters for different web servers in the Erlang VM.
+
 * [Clack (Lisp)](https://github.com/fukamachi/clack/) - Clack is a web application environment for Common Lisp inspired by 
   Python's WSGI and Ruby's Rack.   
   
