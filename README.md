@@ -270,6 +270,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Kenji](https://github.com/kballenegger/Kenji) - A lightweight backend framework for Ruby.
 * [cramp](https://github.com/lifo/cramp) - A fully asynchronous realtime web application framework in Ruby. It is built on top of 
   EventMachine.
+* [Plezi](https://github.com/boazsegev/plezi) - A framework for realtime, RESTful, websocket web apps. (M)VC desing, BYO models.
 * [Brooklyn](https://github.com/luislavena/brooklyn) - Small web tool on top of Rack. No documentation.
 * [Coset](https://github.com/chneukirchen/coset-mirror) - A framework specifically for implementing RESTful Rack applications by Christian Neukirchen.
   Coset is introduced in the paper [`Introducing Rack`](http://chneukirchen.org/talks/euruko-2007/neukirchen07introducingrack.pdf).
