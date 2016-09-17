@@ -243,6 +243,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
   
   * [The Guide to Cuba](http://theguidetocuba.io/) - following this small book to build a Twitter clone called Frogger (work in progress).
   
+* [Dolly](https://github.com/coopermaa/dolly) - Minimal Ruby microframework inspired by Sinatra.
 * [Nancy](https://github.com/guilleiguaran/nancy) - Minimal Ruby microframework for web development inspired in `Sinatra` and `Cuba` (~150 LOC).
 * [Rambutan](https://github.com/guilleiguaran/rambutan) - Ruby web microframework with Rails-ish controllers and routes.
 * [NYNY](https://github.com/alisnic/nyny) - A (ridiculously) small and powerful web framework (~ 300 LOC). NYNY uses 
