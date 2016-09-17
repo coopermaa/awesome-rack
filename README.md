@@ -289,7 +289,6 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Crep](https://github.com/crepe/crepe) - A lightweight API framework designed to help you write clean, fast web services in Ruby. 
   With an elegant and intuitive DSL inspired by RSpec, and with a nod to Grape, Crepe makes API design simple.
 * [Praxis](https://github.com/rightscale/praxis) - A framework for both designing and implementing APIs.
-* [Lotus](https://github.com/lotus)- A complete MVC web framework for Ruby.
 * [Camping](https://github.com/camping/camping) - A web framework which consistently stays at less than 4kB of code.
 * [Espresso](https://github.com/espresso/espresso) - Scalable Web Framework aimed at Speed and Simplicity.
 * [Halcyon](https://github.com/mtodd/halcyon) - A JSON Web Application Framework for developing lightweight applications
@@ -298,7 +297,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Mack](https://github.com/markbates/mack) - A Ruby web application framework. It takes the best ideas from several frameworks, 
   including Rails, Merb, and Ramaze.
 * [Merb](https://github.com/merb/merb) - A web development framework for fast, simple, and powerful development.
-* [Hanami](https://github.com/hanami/hanami) - a Ruby MVC web framework comprised of many micro-libraries. 
+* [Hanami](https://github.com/hanami/hanami) - (formerly Lotus) A Ruby MVC web framework comprised of many micro-libraries. 
   It has a simple, stable API, a minimal DSL.
 
   * [awesome-hanami](https://github.com/davydovanton/awesome-hanami) - A collection of awesome Hanami Gems and projects.
