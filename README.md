@@ -268,6 +268,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
    
 * [jellyfish](https://github.com/godfat/jellyfish) - Pico web framework for building API-centric web applications (~ 250 LOC).  
 * [junior](https://github.com/eddanger/junior) - An MVC Web Framework.
+* [u-web](https://github.com/zimbatm/u-web) - A micro MVC framework based on Rack in a single file.
 * [Kenji](https://github.com/kballenegger/Kenji) - A lightweight backend framework for Ruby.
 * [cramp](https://github.com/lifo/cramp) - A fully asynchronous realtime web application framework in Ruby. It is built on top of 
   EventMachine.
