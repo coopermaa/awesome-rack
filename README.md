@@ -297,6 +297,7 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 * [Wee](https://github.com/mneumann/wee) - A light-weight, very high-level and modern web-framework that makes **W**eb **e**ngineering **e**asy  
 * [Mack](https://github.com/markbates/mack) - A Ruby web application framework. It takes the best ideas from several frameworks, 
   including Rails, Merb, and Ramaze.
+* [Racket](https://github.com/lasso/racket) - A small MVC framework built on top of rack.
 * [Merb](https://github.com/merb/merb) - A web development framework for fast, simple, and powerful development.
 * [Hanami](https://github.com/hanami/hanami) - (formerly Lotus) A Ruby MVC web framework comprised of many micro-libraries. 
   It has a simple, stable API, a minimal DSL.
