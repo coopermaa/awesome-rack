@@ -505,30 +505,27 @@ awesome-rack [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
   You will see a big list of middleware classes that your current Rails app is using. A sample outout:
   
   ```Ruby
+  use Rack::Sendfile
   use ActionDispatch::Static
-  use Rack::Lock
-  use #<ActiveSupport::Cache::Strategy::LocalCache::Middleware:0x007f93ff6810d8>
+  use ActionDispatch::Executor
+  use ActiveSupport::Cache::Strategy::LocalCache::Middleware
   use Rack::Runtime
   use Rack::MethodOverride
   use ActionDispatch::RequestId
   use Rails::Rack::Logger
   use ActionDispatch::ShowExceptions
+  use WebConsole::Middleware
   use ActionDispatch::DebugExceptions
-  use BetterErrors::Middleware
   use ActionDispatch::RemoteIp
   use ActionDispatch::Reloader
   use ActionDispatch::Callbacks
-  use ActiveRecord::ConnectionAdapters::ConnectionManagement
-  use ActiveRecord::QueryCache
+  use ActiveRecord::Migration::CheckPending
   use ActionDispatch::Cookies
   use ActionDispatch::Session::CookieStore
   use ActionDispatch::Flash
-  use ActionDispatch::ParamsParser
-  use ActionDispatch::Head
+  use Rack::Head
   use Rack::ConditionalGet
   use Rack::ETag
-  use ActionDispatch::BestStandardsSupport
-  use Warden::Manager
   run MyApplication::Application.routes
   ```
   
